@@ -1,0 +1,49 @@
+{
+  "name": "poc-fra-hackathon-backend",
+  "version": "1.0.0",
+  "description": "A secret project where we simply change the world",
+  "keywords": [
+    "hackathon",
+    "ONE Record",
+    "backend"
+  ],
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grichka/poc-fra-hackathon-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/grichka/poc-fra-hackathon-backend/issues"
+  },
+  "homepage": "https://github.com/grichka/poc-fra-hackathon-backend#readme",
+  "author": "Thomas Moreau",
+  "license": "SEE LICENSE IN LICENSE",
+  "jest": {
+    "setupFiles": [
+      "dotenv/config"
+    ],
+    "testEnvironment": "jest-environment-node",
+    "transform": {}
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.3.0",
+    "@fastify/http-proxy": "^9.2.0",
+    "@fastify/rate-limit": "^8.0.1",
+    "@fastify/sensible": "^5.2.0",
+    "@fastify/under-pressure": "^8.2.0",
+    "close-with-grace": "^1.2.0",
+    "dotenv": "^16.1.4",
+    "fastify": "^4.18.0",
+    "got": "^13.0.0",
+    "http-requests-runner": "./lib/core-engine/http-requests-runner-1.0.0.tgz",
+    "lodash": "^4.17.21"
+  }
+}
