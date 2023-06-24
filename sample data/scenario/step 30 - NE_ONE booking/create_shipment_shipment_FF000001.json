@@ -1,16 +1,16 @@
 {
-  "@id":"https://neone.onerecord.fr/logistics-objects/shipment_FF000001",
-  "@type":"https://onerecord.iata.org/ns/cargo#Shipment",
-  "https://onerecord.iata.org/ns/cargo#goodsDescription":"ONE Record Learning Materials",
-  "https://onerecord.iata.org/ns/cargo#shipmentOfPieces":[
+  "@id": "https://neone.onerecord.fr/logistics-objects/shipment_FF000001",
+  "@type": "https://onerecord.iata.org/ns/cargo#Shipment",
+  "https://onerecord.iata.org/ns/cargo#goodsDescription": "ONE Record Learning Materials",
+  "https://onerecord.iata.org/ns/cargo#shipmentOfPieces": [
     {
       "@id": "https://neone.onerecord.fr/logistics-objects/piece_p123456"
     },
     {
-      "@id":"https://neone.onerecord.fr/logistics-objects/piece_p123457"
+      "@id": "https://neone.onerecord.fr/logistics-objects/piece_p123457"
     },
     {
-      "@id":"https://neone.onerecord.fr/logistics-objects/piece_p123458"
+      "@id": "https://neone.onerecord.fr/logistics-objects/piece_p123458"
     }
-   ]
- }
+  ]
+}

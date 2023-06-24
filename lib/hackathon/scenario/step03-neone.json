@@ -1,0 +1,31 @@
+[
+  {
+    "parallel": true,
+    "requests": [
+      {
+        "action": "create_lo",
+        "body": {
+          "@id": "https://neone.onerecord.fr/logistics-objects/piece_p123456",
+          "@type": "https://onerecord.iata.org/ns/cargo#Piece",
+          "https://onerecord.iata.org/ns/cargo#goodsDescription": "Vaccines"
+        }
+      },
+      {
+        "action": "create_lo",
+        "body": {
+          "@id": "https://neone.onerecord.fr/logistics-objects/piece_p123457",
+          "@type": "https://onerecord.iata.org/ns/cargo#Piece",
+          "https://onerecord.iata.org/ns/cargo#goodsDescription": "Vaccines"
+        }
+      },
+      {
+        "action": "create_lo",
+        "body": {
+          "@id": "https://neone.onerecord.fr/logistics-objects/piece_p123458",
+          "@type": "https://onerecord.iata.org/ns/cargo#Piece",
+          "https://onerecord.iata.org/ns/cargo#goodsDescription": "Vaccines"
+        }
+      }
+    ]
+  }
+]
