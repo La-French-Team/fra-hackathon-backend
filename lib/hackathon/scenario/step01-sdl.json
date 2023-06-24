@@ -1,6 +1,6 @@
 [
   {
-    "parallel": true,
+    "parallel": false,
     "requests": [
       {
         "action": "create_lo",

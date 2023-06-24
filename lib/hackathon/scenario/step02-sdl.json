@@ -1,0 +1,845 @@
+[
+    {
+      "parallel": false,
+      "requests": [
+        {
+          "action": "create_lo",
+          "tenant": "geodis",
+          "type": "ServiceRequest",
+          "params": {
+            "id": "FF000001.1"
+          },
+          "body": {
+            "externalReferences": [
+              {
+                "externalReferenceType": "REQUESTOR_ID",
+                "reference": "12548793314/1",
+                "description": "Request id 12548793314/1"
+              }
+            ],
+            "provider": {
+              "partyName": "TRUCKER 1"
+            },
+            "requestor": {
+              "partyName": "LA FRENCH COMPANY"
+            },
+            "saleOperations": [],
+            "sla": {
+              "requestedSLA": "",
+              "plannedSLA": "",
+              "actualSLA": ""
+            },
+            "sharedExecutionPlan": "{geodis}/tenants/geodis/execution-plans/FF000001.1",
+            "parentActivities": [
+              "{geodis}/tenants/geodis/activities/FF000001.1"
+            ],
+            "isDangerous": false,
+            "productDescription": "vaccin",
+            "serviceAgreementReference": "10012254/1",
+            "serviceNature": "LOGISTICS",
+            "requestStatus": "REQUESTED",
+            "requestDateTime": "2023-06-23T09:15:00.000Z",
+            "responseStatus": "APPROVED",
+            "responseDateTime": "2023-06-23T09:15:00.000Z",
+            "service": "{geodis}/tenants/geodis/services/TRK1000001",
+            "serviceType": "TRANSPORT",
+            "serviceSubtype": "FTL-LTL",
+            "serviceName": "pre-carriage Chicago",
+            "serviceDescription": "pre-carriage Chicago",
+            "contacts": [
+              {
+                "role": "CUSTOMER_DISPATCH",
+                "phone": "+1604454545",
+                "email": ""
+              },
+              {
+                "role": "PROVIDER_DISPATCH",
+                "phone": "+121230405",
+                "email": ""
+              }
+            ]
+          }
+        },
+        {
+          "action": "create_lo",
+          "tenant": "geodis",
+          "type": "ServiceRequest",
+          "params": {
+            "id": "FF000001.2"
+          },
+          "body": {
+            "externalReferences": [
+              {
+                "externalReferenceType": "REQUESTOR_ID",
+                "reference": "12548793314/2",
+                "description": "Request id 12548793314/2"
+              }
+            ],
+            "provider": {
+              "partyName": "LUFTHANSA"
+            },
+            "requestor": {
+              "partyName": "LA FRENCH COMPANY"
+            },
+            "saleOperations": [],
+            "sla": {
+              "requestedSLA": "",
+              "plannedSLA": "",
+              "actualSLA": ""
+            },
+            "sharedExecutionPlan": "{geodis}/tenants/geodis/execution-plans/FF000001.2",
+            "parentActivities": [
+              "{geodis}/tenants/geodis/activities/FF000001.2"
+            ],
+            "isDangerous": false,
+            "productDescription": "vaccin",
+            "serviceAgreementReference": "34455043/2",
+            "serviceNature": "LOGISTICS",
+            "requestStatus": "REQUESTED",
+            "requestDateTime": "2023-06-23T09:15:00.000Z",
+            "responseStatus": "",
+            "responseDateTime": "",
+            "service": "",
+            "serviceType": "TRANSPORT",
+            "serviceSubtype": "AIR_TRANSPORT",
+            "serviceName": "Air transport Chicago-Frankfurt",
+            "serviceDescription": "Air transport Chicago-Frankfurt",
+            "contacts": [
+              {
+                "role": "CUSTOMER_DISPATCH",
+                "phone": "+1604454545",
+                "email": ""
+              },
+              {
+                "role": "PROVIDER_DISPATCH",
+                "phone": "+121230405",
+                "email": ""
+              }
+            ],
+            "specialInstruction": [
+              {
+                "instructionCode": "45668554.1.12",
+                "description": "Care protocol 45668554.1.12"
+              }
+            ]
+          }
+        },
+        {
+          "action": "create_lo",
+          "tenant": "geodis",
+          "type": "ServiceRequest",
+          "params": {
+            "id": "FF000001.3"
+          },
+          "body": {
+            "externalReferences": [
+              {
+                "externalReferenceType": "REQUESTOR_ID",
+                "reference": "12548793314/3",
+                "description": "Request id 12548793314/3"
+              }
+            ],
+            "provider": {
+              "partyName": "CUSTOM BORKER 1"
+            },
+            "requestor": {
+              "partyName": "LA FRENCH COMPANY"
+            },
+            "saleOperations": [],
+            "sla": {
+              "requestedSLA": "",
+              "plannedSLA": "",
+              "actualSLA": ""
+            },
+            "sharedExecutionPlan": "{geodis}/tenants/geodis/execution-plans/FF000001.3",
+            "parentActivities": [
+              "{geodis}/tenants/geodis/activities/FF000001.3"
+            ],
+            "isDangerous": false,
+            "productDescription": "vaccin",
+            "serviceAgreementReference": "234454334/1",
+            "serviceNature": "LOGISTICS",
+            "requestStatus": "REQUESTED",
+            "requestDateTime": "2023-06-23T09:15:00.000Z",
+            "responseStatus": "APPROVED",
+            "responseDateTime": "2023-06-23T09:15:00.000Z",
+            "service": "{geodis}/tenants/geodis/services/CCLR000001",
+            "serviceType": "CUSTOMS_CLEARANCE",
+            "serviceSubtype": "CUSTOM_IMPORT",
+            "serviceName": "Customs import at FRA",
+            "serviceDescription": "Customs clearance at FRA",
+            "contacts": [
+              {
+                "role": "CUSTOMER_DISPATCH",
+                "phone": "+4904454545",
+                "email": ""
+              },
+              {
+                "role": "PROVIDER_DISPATCH",
+                "phone": "+49121230405",
+                "email": ""
+              }
+            ]
+          }
+        },
+        {
+          "action": "create_lo",
+          "tenant": "geodis",
+          "type": "ServiceRequest",
+          "params": {
+            "id": "FF000001.4"
+          },
+          "body": {
+            "externalReferences": [
+              {
+                "externalReferenceType": "REQUESTOR_ID",
+                "reference": "12548793314/4",
+                "description": "Request id 12548793314/4"
+              }
+            ],
+            "provider": {
+              "partyName": "TRUCKER 2"
+            },
+            "requestor": {
+              "partyName": "LA FRENCH COMPANY"
+            },
+            "saleOperations": [],
+            "sla": {
+              "requestedSLA": "",
+              "plannedSLA": "",
+              "actualSLA": ""
+            },
+            "sharedExecutionPlan": "{geodis}/tenants/geodis/execution-plans/FF000001.4",
+            "parentActivities": [
+              "{geodis}/tenants/geodis/activities/FF000001.4"
+            ],
+            "isDangerous": false,
+            "productDescription": "vaccin",
+            "serviceAgreementReference": "34556553/1",
+            "serviceNature": "LOGISTICS",
+            "requestStatus": "REQUESTED",
+            "requestDateTime": "2023-06-23T09:15:00.000Z",
+            "responseStatus": "APPROVED",
+            "responseDateTime": "2023-06-23T09:15:00.000Z",
+            "service": "{geodis}/tenants/geodis/services/TRK2000001",
+            "serviceType": "TRANSPORT",
+            "serviceSubtype": "FTL-LTL",
+            "serviceName": "pPost-carriage Frankfurt",
+            "serviceDescription": "post-carriage Frankfurt",
+            "contacts": [
+              {
+                "role": "CUSTOMER_DISPATCH",
+                "phone": "+49604454545",
+                "email": ""
+              },
+              {
+                "role": "PROVIDER_DISPATCH",
+                "phone": "+4921230405",
+                "email": ""
+              }
+            ]
+          }
+        },
+        {
+          "action": "create_lo",
+          "tenant": "geodis",
+          "type": "Service",
+          "params": {
+            "id": "CCLR000001"
+          },
+          "body": {
+            "activities": [],
+            "parentActivities": [
+              "{geodis}/tenants/geodis/activities/FF000001.3"
+            ],
+            "provider": {
+              "partyName": "CUSTOM BROCKER 1"
+            },
+            "requestor": {
+              "partyName": "LA FRENCH TEAM"
+            },
+            "sharedExecutionPlan": "{geodis}/tenants/geodis/execution-plans/FF000001.3",
+            "saleOperations": [],
+            "sla": {
+              "requestedSLA": "",
+              "plannedSLA": "",
+              "actualSLA": ""
+            },
+            "invoiceStatus": "NOT_INVOICED",
+            "incoterm": "",
+            "isDangerous": false,
+            "serviceAgreementReference": "1252332.125",
+            "serviceNature": "LOGISTICS",
+            "serviceStatus": "ACCEPTED",
+            "serviceType": "CUSTOMS_CLEARANCE",
+            "serviceSubtype": "CUSTOMS-IMPORT",
+            "totalOperationAmount": {
+              "value": "",
+              "unit": ""
+            },
+            "executionStatus": "NOT_PLANNED",
+            "serviceName": "Customs import Germany",
+            "serviceDescription": "Customs import Gernmany",
+            "contacts": [
+              {
+                "role": "CUSTOMER_DISPATCH",
+                "phone": "+4904454545",
+                "email": ""
+              },
+              {
+                "role": "PROVIDER_DISPATCH",
+                "phone": "+4921230405",
+                "email": ""
+              }
+            ],
+            "externalReferences": [
+              {
+                "description": "service n° A-12548793",
+                "reference": "A-12548793",
+                "externalReferenceType": "PROVIDER_ID"
+              },
+              {
+                "description": "REQUESTOR_ID ABCDEFG.3",
+                "reference": "ABCDEFG.3",
+                "externalReferenceType": "REQUESTOR_ID"
+              }
+            ]
+          }
+        },
+        {
+          "action": "create_lo",
+          "tenant": "geodis",
+          "type": "Service",
+          "params": {
+            "id": "TRK1000001"
+          },
+          "body": {
+            "activities": [],
+            "parentActivities": [
+              "{geodis}/tenants/geodis/activities/FF000001.1"
+            ],
+            "provider": {
+              "partyName": "TRUCKER 1"
+            },
+            "requestor": {
+              "partyName": "LA FRENCH TEAM"
+            },
+            "sharedExecutionPlan": "{geodis}/tenants/geodis/execution-plans/FF000001.1",
+            "saleOperations": [],
+            "sla": {
+              "requestedSLA": "",
+              "plannedSLA": "",
+              "actualSLA": ""
+            },
+            "invoiceStatus": "NOT_INVOICED",
+            "incoterm": "",
+            "isDangerous": false,
+            "serviceAgreementReference": "1122332.125",
+            "serviceNature": "LOGISTICS",
+            "serviceStatus": "ACCEPTED",
+            "serviceType": "TRANSPORT",
+            "serviceSubtype": "FTL-LTL",
+            "totalOperationAmount": {
+              "value": "",
+              "unit": ""
+            },
+            "executionStatus": "SCHEDULED",
+            "serviceName": "Collect transport to Chicago",
+            "serviceDescription": "Collect transport to Chicago",
+            "contacts": [
+              {
+                "role": "CUSTOMER_DISPATCH",
+                "phone": "+1604454545",
+                "email": ""
+              },
+              {
+                "role": "PROVIDER_DISPATCH",
+                "phone": "+121230405",
+                "email": ""
+              }
+            ],
+            "externalReferences": [
+              {
+                "description": "service n° 12548793",
+                "reference": "12548793",
+                "externalReferenceType": "PROVIDER_ID"
+              },
+              {
+                "description": "REQUESTOR_ID ABCDEFG.3",
+                "reference": "ABCDEFG.3",
+                "externalReferenceType": "REQUESTOR_ID"
+              }
+            ]
+          }
+        },
+        {
+          "action": "create_lo",
+          "tenant": "geodis",
+          "type": "Service",
+          "params": {
+            "id": "TRK2000001"
+          },
+          "body": {
+            "activities": [],
+            "parentActivities": [
+              "{geodis}/tenants/geodis/activities/FF000001.4"
+            ],
+            "provider": {
+              "partyName": "TRUCKER 2"
+            },
+            "requestor": {
+              "partyName": "LA FRENCH TEAM"
+            },
+            "sharedExecutionPlan": "{geodis}/tenants/geodis/execution-plans/FF000001.4",
+            "saleOperations": [],
+            "sla": {
+              "requestedSLA": "",
+              "plannedSLA": "",
+              "actualSLA": ""
+            },
+            "invoiceStatus": "NOT_INVOICED",
+            "incoterm": "",
+            "isDangerous": false,
+            "serviceAgreementReference": "1252332.125",
+            "serviceNature": "LOGISTICS",
+            "serviceStatus": "ACCEPTED",
+            "serviceType": "TRANSPORT",
+            "serviceSubtype": "FTL-LTL",
+            "totalOperationAmount": {
+              "value": "",
+              "unit": ""
+            },
+            "executionStatus": "SCHEDULED",
+            "serviceName": "Last mile transport Frankfurt",
+            "serviceDescription": "Last mile transport Frankfurt",
+            "contacts": [
+              {
+                "role": "CUSTOMER_DISPATCH",
+                "phone": "+4904454545",
+                "email": ""
+              },
+              {
+                "role": "PROVIDER_DISPATCH",
+                "phone": "+4921230405",
+                "email": ""
+              }
+            ],
+            "externalReferences": [
+              {
+                "description": "service n° A.12548793",
+                "reference": "A.12548793",
+                "externalReferenceType": "PROVIDER_ID"
+              },
+              {
+                "description": "REQUESTOR_ID ABCDEFG.4",
+                "reference": "ABCDEFG.4",
+                "externalReferenceType": "REQUESTOR_ID"
+              }
+            ]
+          }
+        },
+        {
+          "action": "update_lo",
+          "tenant": "geodis",
+          "type": "Activity",
+          "loId": "FF000001.1",
+          "memberIdentifier": "{geodis}/members/geodis",
+          "body": {
+            "executionPlan": "{geodis}/tenants/geodis/execution-plans/FF000001.1",
+            "sharedExecutionPlan": "{geodis}/tenants/geodis/execution-plans/FF000001.1",
+            "serviceRequests": [],
+            "estimatedCostOperations": [],
+            "relatedService": "{geodis}/tenants/geodis/services/FF000001",
+            "delegatedService": "",
+            "activityName": "Pre carriage",
+            "sequenceNumber": 1,
+            "executionStatus": "NOT_PLANNED",
+            "activityType": "TRANSPORT",
+            "activitySubtype": "FTL-LTL",
+            "processReference": "",
+            "contacts": [
+              {
+                "role": "DISPATCH",
+                "phone": "+1.01.02.03.04.05",
+                "email": ""
+              }
+            ]
+          }
+        },
+        {
+          "action": "update_lo",
+          "tenant": "geodis",
+          "type": "Activity",
+          "loId": "FF000001.2",
+          "memberIdentifier": "{geodis}/members/geodis",
+          "body": {
+            "executionPlan": "{geodis}/tenants/geodis/execution-plans/FF000001.2",
+            "sharedExecutionPlan": "{geodis}/tenants/geodis/execution-plans/FF000001.2",
+            "serviceRequests": [],
+            "estimatedCostOperations": [],
+            "relatedService": "{geodis}/tenants/geodis/services/FF000001",
+            "delegatedService": "",
+            "activityName": "Air Transport",
+            "sequenceNumber": 2,
+            "executionStatus": "NOT_PLANNED",
+            "activityType": "TRANSPORT",
+            "activitySubtype": "AIR_TRANSPORT",
+            "processReference": "",
+            "contacts": [
+              {
+                "role": "DISPATCH",
+                "phone": "+1.01.02.03.04.06",
+                "email": ""
+              }
+            ],
+            "specialInstructions": [
+              {
+                "instructionCode": "45668554.1.12",
+                "description": "Care protocol 45668554.1.12"
+              }
+            ]
+          }
+        },
+        {
+          "action": "update_lo",
+          "tenant": "geodis",
+          "type": "Activity",
+          "loId": "FF000001.3",
+          "memberIdentifier": "{geodis}/members/geodis",
+          "body": {
+            "executionPlan": "{geodis}/tenants/geodis/execution-plans/FF000001.3",
+            "sharedExecutionPlan": "{geodis}/tenants/geodis/execution-plans/FF000001.3",
+            "serviceRequests": [],
+            "estimatedCostOperations": [],
+            "relatedService": "{geodis}/tenants/geodis/services/FF000001",
+            "delegatedService": "",
+            "activityName": "Post carriage",
+            "sequenceNumber": 3,
+            "executionStatus": "NOT_PLANNED",
+            "activityType": "CUSTOMS_CLEARANCE",
+            "activitySubtype": "IMPORT_CUSTOMS",
+            "processReference": "",
+            "contacts": [
+              {
+                "role": "DISPATCH",
+                "phone": "+49.01.02.03.04.06",
+                "email": ""
+              }
+            ]
+          }
+        },
+        {
+          "action": "update_lo",
+          "tenant": "geodis",
+          "type": "Activity",
+          "loId": "FF000001.4",
+          "memberIdentifier": "{geodis}/members/geodis",
+          "body": {
+            "executionPlan": "{geodis}/tenants/geodis/execution-plans/FF000001.4",
+            "sharedExecutionPlan": "{geodis}/tenants/geodis/execution-plans/FF000001.4",
+            "serviceRequests": [],
+            "estimatedCostOperations": [],
+            "relatedService": "{geodis}/tenants/geodis/services/FF000001",
+            "delegatedService": "",
+            "activityName": "Post carriage",
+            "sequenceNumber": 4,
+            "executionStatus": "NOT_PLANNED",
+            "activityType": "TRANSPORT",
+            "activitySubtype": "FTL-LTL",
+            "processReference": "",
+            "contacts": [
+              {
+                "role": "DISPATCH",
+                "phone": "+49.01.02.03.04.06",
+                "email": ""
+              }
+            ]
+          }
+        },
+        {
+          "action": "update_lo",
+          "tenant": "geodis",
+          "type": "ExecutionPlan",
+          "loId": "FF000001.1",
+          "memberIdentifier": "{geodis}/members/geodis",
+          "body": {
+            "milestones": [
+              {
+                "location": {
+                  "address": {
+                    "addressCountry": {
+                      "countryCode": "US",
+                      "countryName": "United States"
+                    },
+                    "addressLocality": "Chicago",
+                    "addressRegion": "",
+                    "postOfficeBoxNumber": "",
+                    "postalCode": "60131",
+                    "streetAddress": ""
+                  },
+                  "locationName": "SELLER_PLANT",
+                  "locationType": "PLANT"
+                },
+                "startSchedule": {
+                  "earliestRequestedDateTime": "2023-06-23T10:00:00.000Z",
+                  "latestRequestedDateTime": "2023-06-23T10:00:00.000Z",
+                  "earliestPlannedDateTime": "2023-06-23T10:00:00.000Z",
+                  "latestPlannedDateTime": "2023-06-23T10:00:00.000Z"
+                },
+                "endSchedule": {
+                  "earliestRequestedDateTime": "2023-06-23T10:30:00.000Z",
+                  "latestRequestedDateTime": "2023-06-23T10:30:00.000Z",
+                  "earliestPlannedDateTime": "2023-06-23T10:30:00.000Z",
+                  "latestPlannedDateTime": "2023-06-23T10:30:00.000Z"
+                },
+                "requestedMovements": [
+                  {
+                    "containedObject": "",
+                    "container": "{geodis}/tenants/geodis/piece/p123456",
+                    "movementType": "IN"
+                  },
+                  {
+                    "containedObject": "",
+                    "container": "{geodis}/tenants/geodis/piece/p123457",
+                    "movementType": "IN"
+                  },
+                  {
+                    "containedObject": "",
+                    "container": "{geodis}/tenants/geodis/piece/p123458",
+                    "movementType": "IN"
+                  }
+                ],
+                "plannedMovements": [
+                  {
+                    "containedObject": "",
+                    "container": "{geodis}/tenants/geodis/piece/p123456",
+                    "movementType": "IN"
+                  },
+                  {
+                    "containedObject": "",
+                    "container": "{geodis}/tenants/geodis/piece/p123457",
+                    "movementType": "IN"
+                  },
+                  {
+                    "containedObject": "",
+                    "container": "{geodis}/tenants/geodis/piece/p123458",
+                    "movementType": "IN"
+                  }
+                ],
+                "actualMovements": [],
+                "isRequested": true
+              },
+              {
+                "location": {
+                  "address": {
+                    "addressCountry": {
+                      "countryCode": "US",
+                      "countryName": "United States"
+                    },
+                    "addressLocality": "Chicago",
+                    "addressRegion": "",
+                    "postOfficeBoxNumber": "",
+                    "postalCode": "55131",
+                    "streetAddress": ""
+                  },
+                  "locationName": "CHICAGO AIRPORT",
+                  "locationType": "AIRPORT"
+                },
+                "startSchedule": {
+                  "earliestRequestedDateTime": "2023-06-23T11:00:00.000Z",
+                  "latestRequestedDateTime": "2023-06-23T11:00:00.000Z",
+                  "earliestPlannedDateTime": "2023-06-23T11:00:00.000Z",
+                  "latestPlannedDateTime": "2023-06-23T11:00:00.000Z"
+                },
+                "endSchedule": {
+                  "earliestRequestedDateTime": "2023-06-23T11:30:00.000Z",
+                  "latestRequestedDateTime": "2023-06-23T11:30:00.000Z",
+                  "earliestPlannedDateTime": "2023-06-23T11:30:00.000Z",
+                  "latestPlannedDateTime": "2023-06-23T11:30:00.000Z"
+                },
+                "requestedMovements": [
+                  {
+                    "containedObject": "",
+                    "container": "{geodis}/tenants/geodis/piece/p123456",
+                    "movementType": "OUT"
+                  },
+                  {
+                    "containedObject": "",
+                    "container": "{geodis}/tenants/geodis/piece/p123457",
+                    "movementType": "OUT"
+                  },
+                  {
+                    "containedObject": "",
+                    "container": "{geodis}/tenants/geodis/piece/p123458",
+                    "movementType": "OUT"
+                  }
+                ],
+                "plannedMovements": [
+                  {
+                    "containedObject": "",
+                    "container": "{geodis}/tenants/geodis/piece/p123456",
+                    "movementType": "OUT"
+                  },
+                  {
+                    "containedObject": "",
+                    "container": "{geodis}/tenants/geodis/piece/p123457",
+                    "movementType": "OUT"
+                  },
+                  {
+                    "containedObject": "",
+                    "container": "{geodis}/tenants/geodis/piece/p123458",
+                    "movementType": "OUT"
+                  }
+                ],
+                "actualMovements": [],
+                "isRequested": true
+              }
+            ],
+            "executionPlanStatus": "SCHEDULED"
+          }
+        },
+        {
+          "action": "update_lo",
+          "tenant": "geodis",
+          "type": "ExecutionPlan",
+          "loId": "FF000001.4",
+          "memberIdentifier": "{geodis}/members/geodis",
+          "body": {
+            "milestones": [
+              {
+                "location": {
+                  "address": {
+                    "addressCountry": {
+                      "countryCode": "DE",
+                      "countryName": "Germany"
+                    },
+                    "addressLocality": "Frankfurt",
+                    "addressRegion": "",
+                    "postOfficeBoxNumber": "",
+                    "postalCode": "60312",
+                    "streetAddress": ""
+                  },
+                  "locationName": "Frankfurt Airport",
+                  "locationType": "AIRPORT"
+                },
+                "startSchedule": {
+                  "earliestRequestedDateTime": "2023-06-25T12:00:00.000Z",
+                  "latestRequestedDateTime": "2023-06-25T12:00:00.000Z",
+                  "earliestPlannedDateTime": "2023-06-25T12:00:00.000Z",
+                  "latestPlannedDateTime": "2023-06-25T12:00:00.000Z"
+                },
+                "endSchedule": {
+                  "earliestRequestedDateTime": "2023-06-25T12:30:00.000Z",
+                  "latestRequestedDateTime": "2023-06-25T12:30:00.000Z",
+                  "earliestPlannedDateTime": "2023-06-25T12:30:00.000Z",
+                  "latestPlannedDateTime": "2023-06-25T12:30:00.000Z"
+                },
+                "requestedMovements": [
+                  {
+                    "containedObject": "",
+                    "container": "{geodis}/tenants/geodis/piece/p123456",
+                    "movementType": "IN"
+                  },
+                  {
+                    "containedObject": "",
+                    "container": "{geodis}/tenants/geodis/piece/p123457",
+                    "movementType": "IN"
+                  },
+                  {
+                    "containedObject": "",
+                    "container": "{geodis}/tenants/geodis/piece/p123458",
+                    "movementType": "IN"
+                  }
+                ],
+                "plannedMovements": [
+                  {
+                    "containedObject": "",
+                    "container": "{geodis}/tenants/geodis/piece/p123456",
+                    "movementType": "IN"
+                  },
+                  {
+                    "containedObject": "",
+                    "container": "{geodis}/tenants/geodis/piece/p123457",
+                    "movementType": "IN"
+                  },
+                  {
+                    "containedObject": "",
+                    "container": "{geodis}/tenants/geodis/piece/p123458",
+                    "movementType": "IN"
+                  }
+                ],
+                "actualMovements": [],
+                "isRequested": true
+              },
+              {
+                "location": {
+                  "address": {
+                    "addressCountry": {
+                      "countryCode": "DE",
+                      "countryName": "Germany"
+                    },
+                    "addressLocality": "Mayence",
+                    "addressRegion": "",
+                    "postOfficeBoxNumber": "",
+                    "postalCode": "55124",
+                    "streetAddress": ""
+                  },
+                  "locationName": "BUYER LOCATION",
+                  "locationType": "WAREHOUSE"
+                },
+                "startSchedule": {
+                  "earliestRequestedDateTime": "2023-06-25T13:00:00.000Z",
+                  "latestRequestedDateTime": "2023-06-25T13:00:00.000Z",
+                  "earliestPlannedDateTime": "2023-06-25T13:00:00.000Z",
+                  "latestPlannedDateTime": "2023-06-25T13:00:00.000Z"
+                },
+                "endSchedule": {
+                  "earliestRequestedDateTime": "2023-06-25T13:30:00.000Z",
+                  "latestRequestedDateTime": "2023-06-25T13:30:00.000Z",
+                  "earliestPlannedDateTime": "2023-06-25T13:30:00.000Z",
+                  "latestPlannedDateTime": "2023-06-25T13:30:00.000Z"
+                },
+                "requestedMovements": [
+                  {
+                    "containedObject": "",
+                    "container": "{geodis}/tenants/geodis/piece/p123456",
+                    "movementType": "OUT"
+                  },
+                  {
+                    "containedObject": "",
+                    "container": "{geodis}/tenants/geodis/piece/p123457",
+                    "movementType": "OUT"
+                  },
+                  {
+                    "containedObject": "",
+                    "container": "{geodis}/tenants/geodis/piece/p123458",
+                    "movementType": "OUT"
+                  }
+                ],
+                "plannedMovements": [
+                  {
+                    "containedObject": "",
+                    "container": "{geodis}/tenants/geodis/piece/p123456",
+                    "movementType": "OUT"
+                  },
+                  {
+                    "containedObject": "",
+                    "container": "{geodis}/tenants/geodis/piece/p123457",
+                    "movementType": "OUT"
+                  },
+                  {
+                    "containedObject": "",
+                    "container": "{geodis}/tenants/geodis/piece/p123458",
+                    "movementType": "OUT"
+                  }
+                ],
+                "actualMovements": [],
+                "isRequested": true
+              }
+            ],
+            "executionPlanStatus": "SCHEDULED"
+          }
+        }
+      ]
+    }
+  ]

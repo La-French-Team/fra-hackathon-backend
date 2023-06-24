@@ -1,5 +1,5 @@
 {
   "@id": "https://neone.onerecord.fr/logistics-objects/piece_p123456",
   "@type": "https://onerecord.iata.org/ns/cargo#Piece",
-  "https://onerecord.iata.org/ns/cargo#goodsDescription": "Books about Linked Data"
+  "https://onerecord.iata.org/ns/cargo#goodsDescription": "Vaccines"
 }
