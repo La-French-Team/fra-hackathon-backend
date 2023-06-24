@@ -4,14 +4,15 @@
       "requests": [
         {
           "action": "delete_lo",
-          "loId": "piece_test"
+          "loId": "piece_p123456"
         },
         {
-          "action": "delete_event",
-          "loId": "piece_test",
-          "params": {
-            "id": "piece_test_DEP"
-          }
+          "action": "delete_lo",
+          "loId": "piece_p123457"
+        },
+        {
+          "action": "delete_lo",
+          "loId": "piece_p123458"
         }
       ]
     }
