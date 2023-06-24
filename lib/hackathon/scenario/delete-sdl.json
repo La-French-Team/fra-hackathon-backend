@@ -1,0 +1,13 @@
+[
+  {
+    "parallel": true,
+    "requests": [
+      {
+        "action": "delete",
+        "tenant": "geodis",
+        "type": "Service",
+        "loId": "RAIL.MUL.SIB.20230320"
+      }
+    ]
+  }
+]
