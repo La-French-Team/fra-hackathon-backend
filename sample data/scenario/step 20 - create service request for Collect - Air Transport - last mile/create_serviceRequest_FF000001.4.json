@@ -33,7 +33,7 @@
   "service": "{geodis}/tenants/geodis/services/TRK2000001",
   "serviceType": "TRANSPORT",
   "serviceSubtype": "FTL-LTL",
-  "serviceName": "pPost-carriage Frankfurt",
+  "serviceName": "Post-carriage Frankfurt",
   "serviceDescription": "post-carriage Frankfurt",
   "contacts": [
     {

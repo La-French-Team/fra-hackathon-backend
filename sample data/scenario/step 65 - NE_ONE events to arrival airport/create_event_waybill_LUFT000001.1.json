@@ -8,7 +8,7 @@
   "https://onerecord.iata.org/ns/cargo#eventTypeIndicator": "Actual",
   "https://onerecord.iata.org/ns/cargo#linkedObject": {
       "@type": "https://onerecord.iata.org/booking",
-      "@id": "https://neone.onerecord.fr/logistics-objects/booking_LUFT000001"
+      "@id": "https://neone.onerecord.fr/logistics-objects/waybill_LUFT000001"
   },
   "https://onerecord.iata.org/ns/cargo#performedBy": {
       "@type": "https://onerecord.iata.org/Company",
