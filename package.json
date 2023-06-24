@@ -37,6 +37,7 @@
   "dependencies": {
     "@fastify/cors": "^8.3.0",
     "@fastify/http-proxy": "^9.2.0",
+    "@fastify/jwt": "^7.0.0",
     "@fastify/rate-limit": "^8.0.1",
     "@fastify/sensible": "^5.2.0",
     "@fastify/under-pressure": "^8.2.0",
@@ -45,6 +46,7 @@
     "dotenv": "^16.1.4",
     "ergol": "^1.0.2",
     "fastify": "^4.18.0",
+    "get-jwks": "^8.1.1",
     "got": "^13.0.0",
     "http-requests-runner": "./lib/core-engine/http-requests-runner-1.0.0.tgz",
     "lodash": "^4.17.21"
