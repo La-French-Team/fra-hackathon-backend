@@ -22,7 +22,7 @@ jobs:
         uses: docker/metadata-action@v4
         with:
           images: |
-            ghcr.io/grichka/poc-fra-hackathon-backend
+            ghcr.io/la-french-team/fra-hackathon-backend
           tags: |
             type=schedule
             type=ref,event=branch
