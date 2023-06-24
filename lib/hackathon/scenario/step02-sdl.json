@@ -98,7 +98,7 @@
           "requestStatus": "REQUESTED",
           "requestDateTime": "2023-06-23T09:15:00.000Z",
           "responseStatus": "",
-          "responseDateTime": "",
+          "responseDateTime": null,
           "service": "",
           "serviceType": "TRANSPORT",
           "serviceSubtype": "AIR_TRANSPORT",

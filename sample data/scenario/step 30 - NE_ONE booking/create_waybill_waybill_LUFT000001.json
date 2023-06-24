@@ -1,0 +1,45 @@
+{
+  "@id": "https://neone.onerecord.fr/logistics-objects/waybill_LUFT000001",
+  "@type": "https://onerecord.iata.org/ns/cargo#Waybill",
+  "https://onerecord.iata.org/ns/cargo#arrivalLocation": {
+    "@id": "https://neone.onerecord.fr/logistics-objects/ord"
+  },
+  "https://onerecord.iata.org/ns/cargo#departureLocation": {
+    "@id": "https://neone.onerecord.fr/logistics-objects/fra"
+  },
+  "https://onerecord.iata.org/ns/cargo#involvedParties": [
+    {
+      "@id": "neone:c9c0839e-4ff7-42a2-9576-050f166b43c9",
+      "@type": "https://onerecord.iata.org/ns/cargo#Party",
+      "https://onerecord.iata.org/ns/cargo#organization": {
+        "@id": "https://neone.onerecord.fr/logistics-objects/organization_seller"
+      },
+      "https://onerecord.iata.org/ns/cargo#role": "Shipper"
+    },
+    {
+      "@id": "neone:1459e165-ffa8-4277-8b86-bb8dc296cd5c",
+      "@type": "https://onerecord.iata.org/ns/cargo#Party",
+      "https://onerecord.iata.org/ns/cargo#organization": {
+        "@id": "https://neone.onerecord.fr/logistics-objects/organization_buyer"
+      },
+      "https://onerecord.iata.org/ns/cargo#role": "Consignee"
+    },
+    {
+      "@id": "neone:f1fb79bc-640e-4c2d-9a8a-a81dd229790a",
+      "@type": "https://onerecord.iata.org/ns/cargo#Party",
+      "https://onerecord.iata.org/ns/cargo#organization": {
+        "@id": "https://neone.onerecord.fr/logistics-objects/company_ff"
+      },
+      "https://onerecord.iata.org/ns/cargo#role": "FreightForwarder"
+    }
+  ],
+  "https://onerecord.iata.org/ns/cargo#referredBookingOption": {
+    "@id": "https://neone.onerecord.fr/logistics-objects/booking_LUFT000001"
+  },
+  "https://onerecord.iata.org/ns/cargo#shipment": {
+    "@id": "https://neone.onerecord.fr/logistics-objects/shipment_FF000001"
+  },
+  "https://onerecord.iata.org/ns/cargo#waybillPrefix": "020",
+  "https://onerecord.iata.org/ns/cargo#waybillType": "Master",
+  "https://onerecord.iata.org/ns/cargo#waybillnumber": "12345675"
+}
