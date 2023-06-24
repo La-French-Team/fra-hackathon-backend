@@ -1,4 +1,32 @@
 {
+  "@id":"https://lft.one-record.lhind.dev/logistics-objects/shipment-1",
+  "@type":"https://onerecord.iata.org/ns/cargo#Shipment",
+  "https://onerecord.iata.org/ns/cargo#goodsDescription":"ONE Record Learning Materials",
+  "https://onerecord.iata.org/ns/cargo#shipmentOfPieces":[
+    {
+      "@id":"{geodis}/tenants/geodis/piece/p123456"
+    },
+    {
+      "@id":"{geodis}/tenants/geodis/piece/p123457"
+    },
+    {
+      "@id":"{geodis}/tenants/geodis/piece/p123458"
+    }
+   ]
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+{
   "activities": [
     "{geodis}/tenants/geodis/activities/FF000001.1",
     "{geodis}/tenants/geodis/activities/FF000001.2",
