@@ -1,0 +1,23 @@
+{
+  "eventType": "BUSINESS",
+  "code": "SERVICE_STARTED",
+  "domain":"SCHEDULE",
+  "description" : "Service started",
+  "location": {
+    "address": {
+      "addressCountry": {
+        "countryCode": "US",
+        "countryName": "United States"
+      },
+      "addressLocality": "Chicago",
+      "addressRegion": "",
+      "postOfficeBoxNumber": "",
+      "postalCode": "60131",
+      "streetAddress": ""
+    },
+    "locationName": "SELLER_PLANT",
+    "locationType": "PLANT"
+  },
+  "actualDateTime": "2023-06-23T08:10:00.000Z",
+  "creationDateTime": "2023-06-23T10:10:00.010Z"
+}

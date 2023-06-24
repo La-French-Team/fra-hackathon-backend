@@ -1,0 +1,99 @@
+{
+  "milestones": [
+    {
+      "location": {
+        "address": {
+          "addressCountry": {
+            "countryCode": "US",
+            "countryName": "United States"
+          },
+          "addressLocality": "Chicago",
+          "addressRegion": "",
+          "postOfficeBoxNumber": "",
+          "postalCode": "55131",
+          "streetAddress": ""
+        },
+        "locationName": "CHICAGO AIRPORT",
+        "locationType": "AIRPORT"
+      },
+      "startSchedule": {
+        "earliestRequestedDateTime": "2023-06-23T10:00:00.000Z",
+        "latestRequestedDateTime": "2023-06-24T10:00:00.000Z"
+      },
+      "endSchedule": {
+        "earliestRequestedDateTime": "2023-06-23T10:30:00.000Z",
+        "latestRequestedDateTime": "2023-06-24T10:30:00.000Z"
+      },
+      "requestedMovements": [
+        {
+          "containedObject": "",
+          "container": "{geodis}/tenants/geodis/piece/p123456",
+          "movementType": "IN"
+        },
+        {
+          "containedObject": "",
+          "container": "{geodis}/tenants/geodis/piece/p123457",
+          "movementType": "IN"
+        },
+        {
+          "containedObject": "",
+          "container": "{geodis}/tenants/geodis/piece/p123458",
+          "movementType": "IN"
+        }
+      ],
+      "plannedMovements": [
+      ],
+      "actualMovements": [
+      ],
+      "isRequested": true
+    },
+    {
+      "location": {
+        "address": {
+          "addressCountry": {
+            "countryCode": "DE",
+            "countryName": "Germany"
+          },
+          "addressLocality": "Frankfurt",
+          "addressRegion": "",
+          "postOfficeBoxNumber": "",
+          "postalCode": "60312",
+          "streetAddress": ""
+        },
+        "locationName": "Frankfurt Airport",
+        "locationType": "AIRPORT"
+      },
+      "startSchedule": {
+        "earliestRequestedDateTime": "2023-06-25T08:00:00.000Z",
+        "latestRequestedDateTime": "2023-06-25T08:00:00.000Z"
+      },
+      "endSchedule": {
+        "earliestRequestedDateTime": "2023-06-25T09:30:00.000Z",
+        "latestRequestedDateTime": "2023-06-25T09:30:00.000Z"
+      },
+      "requestedMovements": [
+        {
+          "containedObject": "",
+          "container": "{geodis}/tenants/geodis/piece/p123456",
+          "movementType": "OUT"
+        },
+        {
+          "containedObject": "",
+          "container": "{geodis}/tenants/geodis/piece/p123457",
+          "movementType": "OUT"
+        },
+        {
+          "containedObject": "",
+          "container": "{geodis}/tenants/geodis/piece/p123458",
+          "movementType": "OUT"
+        }
+      ],
+      "plannedMovements": [
+      ],
+      "actualMovements": [
+      ],
+      "isRequested": true
+    }
+  ],
+  "executionPlanStatus": "SCHEDULED"
+}

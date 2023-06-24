@@ -1,0 +1,21 @@
+{
+	"executionPlan": "{geodis}/tenants/geodis/execution-plans/FF000001.3",
+	"sharedExecutionPlan": "{geodis}/tenants/geodis/execution-plans/FF000001.3",
+	"serviceRequests": [],
+	"estimatedCostOperations": [],
+	"relatedService": "{geodis}/tenants/geodis/services/FF000001",
+	"delegatedService": "",
+	"activityName": "Post carriage",
+	"sequenceNumber": 3,
+	"executionStatus": "NOT_PLANNED",
+	"activityType": "CUSTOMS_CLEARANCE",
+	"activitySubtype": "IMPORT_CUSTOMS",
+	"processReference": "",
+	"contacts": [
+		{
+			"role": "DISPATCH",
+			"phone": "+49.01.02.03.04.06",
+			"email": ""
+		}
+	]
+}

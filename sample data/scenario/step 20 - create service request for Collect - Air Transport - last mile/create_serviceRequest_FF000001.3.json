@@ -1,0 +1,50 @@
+{
+  "externalReferences": [
+    {
+      "externalReferenceType": "REQUESTOR_ID",
+      "reference": "12548793314/3",
+      "description": "Request id 12548793314/3"
+    }
+  ],
+  "provider": {
+    "partyName": "CUSTOM BORKER 1"
+  },
+  "requestor": {
+    "partyName": "LA FRENCH COMPANY"
+  },
+  "saleOperations": [],
+  "sla": {
+    "requestedSLA": "",
+    "plannedSLA": "",
+    "actualSLA": ""
+  },
+  "sharedExecutionPlan": "{geodis}/tenants/geodis/execution-plans/FF000001.3",
+  "parentActivities": [
+    "{geodis}/tenants/geodis/activities/FF000001.3"
+  ],
+  "isDangerous": false,
+  "productDescription": "vaccin",
+  "serviceAgreementReference": "234454334/1",
+  "serviceNature": "LOGISTICS",
+  "requestStatus": "REQUESTED",
+  "requestDateTime": "2023-06-23T09:15:00.000Z",
+  "responseStatus": "APPROVED",
+  "responseDateTime": "2023-06-23T09:15:00.000Z",
+  "service": "{geodis}/tenants/geodis/services/CCLR000001",
+  "serviceType": "CUSTOMS_CLEARANCE",
+  "serviceSubtype": "CUSTOM_IMPORT",
+  "serviceName": "Customs import at FRA",
+  "serviceDescription": "Customs clearance at FRA",
+  "contacts": [
+    {
+      "role": "CUSTOMER_DISPATCH",
+      "phone": "+4904454545",
+      "email": ""
+    },
+    {
+      "role": "PROVIDER_DISPATCH",
+      "phone": "+49121230405",
+      "email": ""
+    }
+  ]
+}

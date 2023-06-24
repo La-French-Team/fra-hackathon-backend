@@ -1,0 +1,23 @@
+{
+  "eventType": "BUSINESS",
+  "code": "LOCATION_ARRIVAL",
+  "domain":"SCHEDULE",
+  "description" : "Arriving at Chicago Airport",
+  "location": {
+    "address": {
+      "addressCountry": {
+        "countryCode": "US",
+        "countryName": "United States"
+      },
+      "addressLocality": "Chicago",
+      "addressRegion": "",
+      "postOfficeBoxNumber": "",
+      "postalCode": "55131",
+      "streetAddress": ""
+    },
+    "locationName": "CHICAGO AIRPORT",
+    "locationType": "AIRPORT"
+  },
+"actualDateTime": "2023-06-23T11:00:00.000Z",
+  "creationDateTime": "2023-06-23T11:10:00.010Z"
+}

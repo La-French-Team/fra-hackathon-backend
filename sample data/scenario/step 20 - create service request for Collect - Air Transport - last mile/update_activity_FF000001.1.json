@@ -1,0 +1,21 @@
+{
+	"executionPlan": "{geodis}/tenants/geodis/execution-plans/FF000001.1",
+	"sharedExecutionPlan": "{geodis}/tenants/geodis/execution-plans/FF000001.1",
+	"serviceRequests": [],
+	"estimatedCostOperations": [],
+	"relatedService": "{geodis}/tenants/geodis/services/FF000001",
+	"delegatedService": "",
+	"activityName": "Pre carriage",
+	"sequenceNumber": 1,
+	"executionStatus": "NOT_PLANNED",
+	"activityType": "TRANSPORT",
+	"activitySubtype": "FTL-LTL",
+	"processReference": "",
+	"contacts": [
+		{
+			"role": "DISPATCH",
+			"phone": "+1.01.02.03.04.05",
+			"email": ""
+		}
+	]
+}

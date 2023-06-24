@@ -1,0 +1,50 @@
+{
+  "externalReferences": [
+    {
+      "externalReferenceType": "REQUESTOR_ID",
+      "reference": "12548793314/1",
+      "description": "Request id 12548793314/1"
+    }
+  ],
+  "provider": {
+    "partyName": "TRUCKER 1"
+  },
+  "requestor": {
+    "partyName": "LA FRENCH COMPANY"
+  },
+  "saleOperations": [],
+  "sla": {
+    "requestedSLA": "",
+    "plannedSLA": "",
+    "actualSLA": ""
+  },
+  "sharedExecutionPlan": "{geodis}/tenants/geodis/execution-plans/FF000001.1",
+  "parentActivities": [
+    "{geodis}/tenants/geodis/activities/FF000001.1"
+  ],
+  "isDangerous": false,
+  "productDescription": "vaccin",
+  "serviceAgreementReference": "10012254/1",
+  "serviceNature": "LOGISTICS",
+  "requestStatus": "REQUESTED",
+  "requestDateTime": "2023-06-23T09:15:00.000Z",
+  "responseStatus": "APPROVED",
+  "responseDateTime": "2023-06-23T09:15:00.000Z",
+  "service": "{geodis}/tenants/geodis/services/TRK1000001",
+  "serviceType": "TRANSPORT",
+  "serviceSubtype": "FTL-LTL",
+  "serviceName": "pre-carriage Chicago",
+  "serviceDescription": "pre-carriage Chicago",
+  "contacts": [
+    {
+      "role": "CUSTOMER_DISPATCH",
+      "phone": "+1604454545",
+      "email": ""
+    },
+    {
+      "role": "PROVIDER_DISPATCH",
+      "phone": "+121230405",
+      "email": ""
+    }
+  ]
+}

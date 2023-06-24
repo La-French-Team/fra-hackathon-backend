@@ -1,0 +1,59 @@
+{
+  "activities": [
+  ],
+  "parentActivities": [
+    "{geodis}/tenants/geodis/activities/FF000001.1"
+  ],
+  "provider": {
+    "partyName": "TRUCKER 1"
+  },
+  "requestor": {
+    "partyName": "LA FRENCH TEAM"
+  },
+  "sharedExecutionPlan": "{geodis}/tenants/geodis/execution-plans/FF000001.1",
+  "saleOperations": [],
+  "sla": {
+    "requestedSLA": "",
+    "plannedSLA": "",
+    "actualSLA": ""
+  },
+  "invoiceStatus": "NOT_INVOICED",
+  "incoterm": "",
+  "isDangerous": false,
+  "serviceAgreementReference": "1122332.125",
+  "serviceNature": "LOGISTICS",
+  "serviceStatus": "ACCEPTED",
+  "serviceType": "TRANSPORT",
+  "serviceSubtype": "FTL-LTL",
+  "totalOperationAmount": {
+    "value": "",
+    "unit": ""
+  },
+  "executionStatus": "SCHEDULED",
+  "serviceName": "Collect transport to Chicago",
+  "serviceDescription": "Collect transport to Chicago",
+  "contacts": [
+    {
+      "role": "CUSTOMER_DISPATCH",
+      "phone": "+1604454545",
+      "email": ""
+    },
+    {
+      "role": "PROVIDER_DISPATCH",
+      "phone": "+121230405",
+      "email": ""
+    }
+  ],
+  "externalReferences": [
+    {
+      "description": "service n° 12548793",
+      "reference": "12548793",
+      "externalReferenceType": "PROVIDER_ID"
+    },
+    {
+      "description": "REQUESTOR_ID ABCDEFG.3",
+      "reference": "ABCDEFG.3",
+      "externalReferenceType": "REQUESTOR_ID"
+    }
+  ]
+}
