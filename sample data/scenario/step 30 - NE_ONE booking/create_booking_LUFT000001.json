@@ -17,7 +17,7 @@
       "@type":"https://onerecord.iata.org/ns/cargo#ActivitySequence",
       "https://onerecord.iata.org/ns/cargo#activity":
       {
-        "@id":"https://neone.onerecord.fr/logistics-objects/transport-movement_LUFT000001.1"
+        "@id":"https://neone.onerecord.fr/logistics-objects/transport-movement_LUFT000001.2"
       },
       "https://onerecord.iata.org/ns/cargo#sequenceNumber":"2"
     }
