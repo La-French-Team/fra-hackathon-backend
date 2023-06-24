@@ -1,0 +1,23 @@
+{
+  "eventType": "BUSINESS",
+  "code": "DEP",
+  "domain":"AIR",
+  "description" : "Departed",
+  "location": {
+    "address": {
+      "addressCountry": {
+        "countryCode": "US",
+        "countryName": "United States"
+      },
+      "addressLocality": "Chicago",
+      "addressRegion": "",
+      "postOfficeBoxNumber": "",
+      "postalCode": "55131",
+      "streetAddress": ""
+    },
+    "locationName": "CHICAGO AIRPORT",
+    "locationType": "AIRPORT"
+  },
+  "actualDateTime": "2023-06-24T10:30:00.000Z",
+  "creationDateTime": "2023-06-24T10:30:00.000Z"
+}

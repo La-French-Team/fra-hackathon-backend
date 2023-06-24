@@ -1,0 +1,21 @@
+{
+  "@type": "https://onerecord.iata.org/Event",
+  "https://onerecord.iata.org/ns/cargo#dateTime": "2023-06-24T09:30:00.000Z",
+  "https://onerecord.iata.org/ns/cargo#creationDate": "2023-06-24T09:30:00.100Z",
+  "https://onerecord.iata.org/ns/cargo#eventDate": "2023-06-24T09:30:00.000Z",
+  "https://onerecord.iata.org/ns/cargo#eventCode": "FOW",
+  "https://onerecord.iata.org/ns/cargo#eventName": "Freight out warehouse",
+  "https://onerecord.iata.org/ns/cargo#eventTypeIndicator": "Actual",
+  "https://onerecord.iata.org/ns/cargo#linkedObject": {
+      "@type": "https://onerecord.iata.org/waybill",
+      "@id": "https://neone.onerecord.fr/logistics-objects/waybill_LUFT000001"
+  },
+  "https://onerecord.iata.org/ns/cargo#performedBy": {
+      "@type": "https://onerecord.iata.org/Company",
+      "@id": "https://neone.onerecord.fr/lufthansa-cargo"
+  },
+    "https://onerecord.iata.org/ns/cargo#performedByPerson": {
+      "@type": "https://onerecord.iata.org/Person",
+      "@id": "https://neone.onerecord.fr/lufthansa-cargo"
+  }
+}
