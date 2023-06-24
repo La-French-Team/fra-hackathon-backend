@@ -164,34 +164,34 @@
               "requestedMovements": [
                 {
                   "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/piece/p123456",
+                  "container": "{geodis}/tenants/geodis/pieces/p123456",
                   "movementType": "IN"
                 },
                 {
                   "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/piece/p123457",
+                  "container": "{geodis}/tenants/geodis/pieces/p123457",
                   "movementType": "IN"
                 },
                 {
                   "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/piece/p123458",
+                  "container": "{geodis}/tenants/geodis/pieces/p123458",
                   "movementType": "IN"
                 }
               ],
               "plannedMovements": [
                 {
                   "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/piece/p123456",
+                  "container": "{geodis}/tenants/geodis/pieces/p123456",
                   "movementType": "IN"
                 },
                 {
                   "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/piece/p123457",
+                  "container": "{geodis}/tenants/geodis/pieces/p123457",
                   "movementType": "IN"
                 },
                 {
                   "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/piece/p123458",
+                  "container": "{geodis}/tenants/geodis/pieces/p123458",
                   "movementType": "IN"
                 }
               ],
@@ -229,34 +229,34 @@
               "requestedMovements": [
                 {
                   "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/piece/p123456",
+                  "container": "{geodis}/tenants/geodis/pieces/p123456",
                   "movementType": "OUT"
                 },
                 {
                   "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/piece/p123457",
+                  "container": "{geodis}/tenants/geodis/pieces/p123457",
                   "movementType": "OUT"
                 },
                 {
                   "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/piece/p123458",
+                  "container": "{geodis}/tenants/geodis/pieces/p123458",
                   "movementType": "OUT"
                 }
               ],
               "plannedMovements": [
                 {
                   "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/piece/p123456",
+                  "container": "{geodis}/tenants/geodis/pieces/p123456",
                   "movementType": "OUT"
                 },
                 {
                   "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/piece/p123457",
+                  "container": "{geodis}/tenants/geodis/pieces/p123457",
                   "movementType": "OUT"
                 },
                 {
                   "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/piece/p123458",
+                  "container": "{geodis}/tenants/geodis/pieces/p123458",
                   "movementType": "OUT"
                 }
               ],
@@ -303,17 +303,17 @@
               "requestedMovements": [
                 {
                   "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/piece/p123456",
+                  "container": "{geodis}/tenants/geodis/pieces/p123456",
                   "movementType": "IN"
                 },
                 {
                   "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/piece/p123457",
+                  "container": "{geodis}/tenants/geodis/pieces/p123457",
                   "movementType": "IN"
                 },
                 {
                   "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/piece/p123458",
+                  "container": "{geodis}/tenants/geodis/pieces/p123458",
                   "movementType": "IN"
                 }
               ],
@@ -348,17 +348,17 @@
               "requestedMovements": [
                 {
                   "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/piece/p123456",
+                  "container": "{geodis}/tenants/geodis/pieces/p123456",
                   "movementType": "OUT"
                 },
                 {
                   "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/piece/p123457",
+                  "container": "{geodis}/tenants/geodis/pieces/p123457",
                   "movementType": "OUT"
                 },
                 {
                   "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/piece/p123458",
+                  "container": "{geodis}/tenants/geodis/pieces/p123458",
                   "movementType": "OUT"
                 }
               ],
@@ -406,17 +406,17 @@
               "requestedMovements": [
                 {
                   "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/piece/p123456",
+                  "container": "{geodis}/tenants/geodis/pieces/p123456",
                   "movementType": "IN"
                 },
                 {
                   "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/piece/p123457",
+                  "container": "{geodis}/tenants/geodis/pieces/p123457",
                   "movementType": "IN"
                 },
                 {
                   "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/piece/p123458",
+                  "container": "{geodis}/tenants/geodis/pieces/p123458",
                   "movementType": "IN"
                 }
               ],
@@ -451,17 +451,17 @@
               "requestedMovements": [
                 {
                   "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/piece/p123456",
+                  "container": "{geodis}/tenants/geodis/pieces/p123456",
                   "movementType": "OUT"
                 },
                 {
                   "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/piece/p123457",
+                  "container": "{geodis}/tenants/geodis/pieces/p123457",
                   "movementType": "OUT"
                 },
                 {
                   "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/piece/p123458",
+                  "container": "{geodis}/tenants/geodis/pieces/p123458",
                   "movementType": "OUT"
                 }
               ],
@@ -551,34 +551,34 @@
               "requestedMovements": [
                 {
                   "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/piece/p123456",
+                  "container": "{geodis}/tenants/geodis/pieces/p123456",
                   "movementType": "IN"
                 },
                 {
                   "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/piece/p123457",
+                  "container": "{geodis}/tenants/geodis/pieces/p123457",
                   "movementType": "IN"
                 },
                 {
                   "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/piece/p123458",
+                  "container": "{geodis}/tenants/geodis/pieces/p123458",
                   "movementType": "IN"
                 }
               ],
               "plannedMovements": [
                 {
                   "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/piece/p123456",
+                  "container": "{geodis}/tenants/geodis/pieces/p123456",
                   "movementType": "IN"
                 },
                 {
                   "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/piece/p123457",
+                  "container": "{geodis}/tenants/geodis/pieces/p123457",
                   "movementType": "IN"
                 },
                 {
                   "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/piece/p123458",
+                  "container": "{geodis}/tenants/geodis/pieces/p123458",
                   "movementType": "IN"
                 }
               ],
@@ -612,34 +612,34 @@
               "requestedMovements": [
                 {
                   "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/piece/p123456",
+                  "container": "{geodis}/tenants/geodis/pieces/p123456",
                   "movementType": "OUT"
                 },
                 {
                   "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/piece/p123457",
+                  "container": "{geodis}/tenants/geodis/pieces/p123457",
                   "movementType": "OUT"
                 },
                 {
                   "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/piece/p123458",
+                  "container": "{geodis}/tenants/geodis/pieces/p123458",
                   "movementType": "OUT"
                 }
               ],
               "plannedMovements": [
                 {
                   "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/piece/p123456",
+                  "container": "{geodis}/tenants/geodis/pieces/p123456",
                   "movementType": "OUT"
                 },
                 {
                   "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/piece/p123457",
+                  "container": "{geodis}/tenants/geodis/pieces/p123457",
                   "movementType": "OUT"
                 },
                 {
                   "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/piece/p123458",
+                  "container": "{geodis}/tenants/geodis/pieces/p123458",
                   "movementType": "OUT"
                 }
               ],
