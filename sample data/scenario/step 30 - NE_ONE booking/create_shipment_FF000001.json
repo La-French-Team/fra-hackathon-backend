@@ -1,97 +1,16 @@
 {
-  "@id":"https://lft.one-record.lhind.dev/logistics-objects/shipment-1",
+  "@id":"https://neone.onerecord.fr/logistics-objects/shipment_FF000001",
   "@type":"https://onerecord.iata.org/ns/cargo#Shipment",
   "https://onerecord.iata.org/ns/cargo#goodsDescription":"ONE Record Learning Materials",
   "https://onerecord.iata.org/ns/cargo#shipmentOfPieces":[
     {
-      "@id":"{geodis}/tenants/geodis/piece/p123456"
+      "@id": "https://neone.onerecord.fr/logistics-objects/piece_p123456"
     },
     {
-      "@id":"{geodis}/tenants/geodis/piece/p123457"
+      "@id":"https://neone.onerecord.fr/logistics-objects/piece_p123457"
     },
     {
-      "@id":"{geodis}/tenants/geodis/piece/p123458"
+      "@id":"https://neone.onerecord.fr/logistics-objects/piece_p123458"
     }
    ]
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-{
-  "activities": [
-    "{geodis}/tenants/geodis/activities/FF000001.1",
-    "{geodis}/tenants/geodis/activities/FF000001.2",
-    "{geodis}/tenants/geodis/activities/FF000001.3",
-    "{geodis}/tenants/geodis/activities/FF000001.4"
-  ],
-  "parentActivities": [
-    "{seller}/tenants/geodis/activities/CUS.TAV.BEV.20230320.1.2"
-  ],
-  "provider": {
-    "partyName": "LA FRENCH COMPANY"
-  },
-  "requestor": {
-    "partyName": "PRODUCT SELLER"
-  },
-  "sharedExecutionPlan": "{geodis}/tenants/geodis/execution-plans/CUST00001",
-  "saleOperations": [],
-  "sla": {
-    "requestedSLA": "",
-    "plannedSLA": "",
-    "actualSLA": ""
-  },
-  "invoiceStatus": "NOT_INVOICED",
-  "incoterm": "",
-  "isDangerous": false,
-  "serviceAgreementReference": "125478.125",
-  "serviceNature": "LOGISTICS",
-  "serviceStatus": "ACCEPTED",
-  "serviceType": "TRANSPORT",
-  "serviceSubtype": "DELIVERY",
-  "totalOperationAmount": {
-    "value": "",
-    "unit": ""
-  },
-  "executionStatus": "SCHEDULED",
-  "serviceName": "International D2D Delivery",
-  "serviceDescription": "International D2D Delivery",
-  "contacts": [
-    {
-      "role": "CUSTOMER_DISPATCH",
-      "phone": "+33604454545",
-      "email": ""
-    },
-    {
-      "role": "PROVIDER_DISPATCH",
-      "phone": "+321230405",
-      "email": ""
-    }
-  ],
-  "externalReferences": [
-    {
-      "description": "service n° 12548793314",
-      "reference": "12548793314",
-      "externalReferenceType": "PROVIDER_ID"
-    },
-    {
-      "description": "REQUESTOR_ID ABCDEFG.1",
-      "reference": "ABCDEFG.1",
-      "externalReferenceType": "REQUESTOR_ID"
-    }
-  ],
-  "specialInstructions": [
-    {
-      "instructionCode": "45668554.1.12",
-      "description": "Care protocol 45668554.1.12"
-    }
-  ]
-}
+ }
