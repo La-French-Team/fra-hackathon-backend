@@ -25,6 +25,235 @@
           "@type": "https://onerecord.iata.org/ns/cargo#Piece",
           "https://onerecord.iata.org/ns/cargo#goodsDescription": "Vaccines"
         }
+      },
+      {
+        "action": "create_lo",
+        "body": {
+          "@id": "https://neone.onerecord.fr/logistics-objects/action-build-up-requested",
+          "@type": "https://onerecord.iata.org/ns/cargo#Composing",
+          "https://onerecord.iata.org/ns/cargo#actionEndTime": {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2023-06-24T10:00:00Z"
+          },
+          "https://onerecord.iata.org/ns/cargo#actionStartTime": {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2023-06-24T10:30:00Z"
+          },
+          "https://onerecord.iata.org/ns/cargo#actionTimeType": "Requested",
+          "https://onerecord.iata.org/ns/cargo#composedPieces": [
+            {
+              "@id": "https://sdl.onerecord.fr/tenants/geodis/pieces/p123456"
+            },
+            {
+              "@id": "https://sdl.onerecord.fr/tenants/geodis/pieces/p123457"
+            },
+            {
+              "@id": "https://sdl.onerecord.fr/tenants/geodis/pieces/p123458"
+            }
+          ],
+          "https://onerecord.iata.org/ns/cargo#compositionType": "BuildUp",
+          "https://onerecord.iata.org/ns/cargo#contactPerson": {
+            "@id": ""
+          },
+          "https://onerecord.iata.org/ns/cargo#performedAtLocation": {
+            "@id": "https://neone.onerecord.fr/logistics-objects/ord"
+          },
+          "https://onerecord.iata.org/ns/cargo#servedActivity": {
+            "@id": "https://neone.onerecord.fr/logistics-objects/transportMovementLUFT000001.1"
+          }
+        }
+      },
+      {
+        "action": "create_lo",
+        "body": {
+          "@id": "https://neone.onerecord.fr/logistics-objects/action-onloading-1-1",
+          "@type": "https://onerecord.iata.org/ns/cargo#Loading",
+          "https://onerecord.iata.org/ns/cargo#actionEndTime": {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2023-06-24T10:30:00Z"
+          },
+          "https://onerecord.iata.org/ns/cargo#actionTimeType": "Planned",
+          "https://onerecord.iata.org/ns/cargo#compositionType": "Onloading",
+          "https://onerecord.iata.org/ns/cargo#contactPerson": {
+            "@id": ""
+          },
+          "https://onerecord.iata.org/ns/cargo#loadingUnit": {
+            "@id": "https://neone.onerecord.fr/logistics-objects/uld12345"
+          },
+          "https://onerecord.iata.org/ns/cargo#performedAtLocation": {
+            "@id": "https://neone.onerecord.fr/logistics-objects/ord"
+          },
+          "https://onerecord.iata.org/ns/cargo#servedActivity": {
+            "@id": "https://neone.onerecord.fr/logistics-objects/transportMovement_LUFT000001.1"
+          }
+        }
+      },
+      {
+        "action": "create_lo",
+        "body": {
+          "@id": "https://neone.onerecord.fr/logistics-objects/booking_LUFT000001",
+          "@type": "https://onerecord.iata.org/ns/cargo#Booking",
+          "https://onerecord.iata.org/ns/cargo#activitySequences": [
+            {
+              "@id": "neone:be8bb700-2535-47f6-a3d3-996d3d5f87be",
+              "@type": "https://onerecord.iata.org/ns/cargo#ActivitySequence",
+              "https://onerecord.iata.org/ns/cargo#activity": {
+                "@id": "https://neone.onerecord.fr/logistics-objects/transport-movement_LUFT000001.1"
+              },
+              "https://onerecord.iata.org/ns/cargo#sequenceNumber": "1"
+            },
+            {
+              "@id": "neone:314627e7-0baa-47ab-a215-b1b01ed1c2e0",
+              "@type": "https://onerecord.iata.org/ns/cargo#ActivitySequence",
+              "https://onerecord.iata.org/ns/cargo#activity": {
+                "@id": "https://neone.onerecord.fr/logistics-objects/transport-movement_LUFT000001.2"
+              },
+              "https://onerecord.iata.org/ns/cargo#sequenceNumber": "2"
+            }
+          ],
+          "https://onerecord.iata.org/ns/cargo#issuedForWaybill": {
+            "@id": "https://neone.onerecord.fr/logistics-objects/waybill_LUFT000001.123"
+          }
+        }
+      },
+      {
+        "action": "create_lo",
+        "body": {
+          "@id": "https://neone.onerecord.fr/logistics-objects/shipment_FF000001",
+          "@type": "https://onerecord.iata.org/ns/cargo#Shipment",
+          "https://onerecord.iata.org/ns/cargo#goodsDescription": "ONE Record Learning Materials",
+          "https://onerecord.iata.org/ns/cargo#shipmentOfPieces": [
+            {
+              "@id": "https://neone.onerecord.fr/logistics-objects/piece_p123456"
+            },
+            {
+              "@id": "https://neone.onerecord.fr/logistics-objects/piece_p123457"
+            },
+            {
+              "@id": "https://neone.onerecord.fr/logistics-objects/piece_p123458"
+            }
+          ]
+        }
+      },
+      {
+        "action": "create_lo",
+        "body": {
+          "@id": "https://neone.onerecord.fr/logistics-objects/transportMovement_LUFT000001.1",
+          "@type": "https://onerecord.iata.org/ns/cargo#TransportMovement",
+          "https://onerecord.iata.org/ns/cargo#actions": [
+            {
+              "@id": "https://neone.onerecord.fr/logistics-objects/actionLoadingLUFT000001.1.1"
+            },
+            {
+              "@id": "https://neone.onerecord.fr/logistics-objects/actionUnLoadingLUFT000001.1.2"
+            }
+          ],
+          "https://onerecord.iata.org/ns/cargo#arrivalLocation": {
+            "@id": "https://neone.onerecord.fr/logistics-objects/logistics-objects/fra"
+          },
+          "https://onerecord.iata.org/ns/cargo#departureLocation": {
+            "@id": "https://neone.onerecord.fr/logistics-objects/logistics-objects/ord"
+          },
+          "https://onerecord.iata.org/ns/cargo#executionStatus": "pending",
+          "https://onerecord.iata.org/ns/cargo#modeQualifier": "Main-Carriage",
+          "https://onerecord.iata.org/ns/cargo#movementTimes": [
+            {
+              "@id": "neone:0d73ad6e-cc5a-49b0-835c-c2dc5e4fecb0",
+              "@type": "https://onerecord.iata.org/ns/cargo#MovementTime",
+              "https://onerecord.iata.org/ns/cargo#direction": "Outbound",
+              "https://onerecord.iata.org/ns/cargo#movementTimeStamp": {
+                "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "@value": "2023-06-25T10:00:00Z"
+              },
+              "https://onerecord.iata.org/ns/cargo#movementTimeType": "Scheduled"
+            },
+            {
+              "@id": "neone:15e4ad5e-faec-445f-9e80-9bc81fbeef94",
+              "@type": "https://onerecord.iata.org/ns/cargo#MovementTime",
+              "https://onerecord.iata.org/ns/cargo#direction": "Inbound",
+              "https://onerecord.iata.org/ns/cargo#movementTimeStamp": {
+                "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "@value": "2023-06-24T09:30:00Z"
+              },
+              "https://onerecord.iata.org/ns/cargo#movementTimeType": "Scheduled"
+            },
+            {
+              "@id": "neone:6d36780b-d24e-4999-8efe-f9b7174f2ab6",
+              "@type": "https://onerecord.iata.org/ns/cargo#MovementTime",
+              "https://onerecord.iata.org/ns/cargo#direction": "Outbound",
+              "https://onerecord.iata.org/ns/cargo#movementTimeStamp": {
+                "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "@value": "2023-05-01T20:00:00Z"
+              },
+              "https://onerecord.iata.org/ns/cargo#movementTimeType": "Actual"
+            },
+            {
+              "@id": "neone:f867ffa6-d1d8-437f-8d4c-5f81a687b143",
+              "@type": "https://onerecord.iata.org/ns/cargo#MovementTime",
+              "https://onerecord.iata.org/ns/cargo#direction": "Inbound",
+              "https://onerecord.iata.org/ns/cargo#movementTimeStamp": {
+                "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "@value": "2023-05-01T21:15:00Z"
+              },
+              "https://onerecord.iata.org/ns/cargo#movementTimeType": "Actual"
+            }
+          ],
+          "https://onerecord.iata.org/ns/cargo#operatingTransportMeans": {
+            "@id": "https://lft.one-record.lhind.dev/logistics-objects/transport-means-1"
+          },
+          "https://onerecord.iata.org/ns/cargo#servedServices": {
+            "@id": "https://lft.one-record.lhind.dev/logistics-objects/booking-1"
+          },
+          "https://onerecord.iata.org/ns/cargo#transportIdentifier": "LH033"
+        }
+      },
+      {
+        "action": "create_lo",
+        "body": {
+          "@id": "https://neone.onerecord.fr/logistics-objects/waybill_LUFT000001",
+          "@type": "https://onerecord.iata.org/ns/cargo#Waybill",
+          "https://onerecord.iata.org/ns/cargo#arrivalLocation": {
+            "@id": "https://neone.onerecord.fr/logistics-objects/ord"
+          },
+          "https://onerecord.iata.org/ns/cargo#departureLocation": {
+            "@id": "https://neone.onerecord.fr/logistics-objects/fra"
+          },
+          "https://onerecord.iata.org/ns/cargo#involvedParties": [
+            {
+              "@id": "neone:c9c0839e-4ff7-42a2-9576-050f166b43c9",
+              "@type": "https://onerecord.iata.org/ns/cargo#Party",
+              "https://onerecord.iata.org/ns/cargo#organization": {
+                "@id": "https://neone.onerecord.fr/logistics-objects/organization_seller"
+              },
+              "https://onerecord.iata.org/ns/cargo#role": "Shipper"
+            },
+            {
+              "@id": "neone:1459e165-ffa8-4277-8b86-bb8dc296cd5c",
+              "@type": "https://onerecord.iata.org/ns/cargo#Party",
+              "https://onerecord.iata.org/ns/cargo#organization": {
+                "@id": "https://neone.onerecord.fr/logistics-objects/organization_buyer"
+              },
+              "https://onerecord.iata.org/ns/cargo#role": "Consignee"
+            },
+            {
+              "@id": "neone:f1fb79bc-640e-4c2d-9a8a-a81dd229790a",
+              "@type": "https://onerecord.iata.org/ns/cargo#Party",
+              "https://onerecord.iata.org/ns/cargo#organization": {
+                "@id": "https://neone.onerecord.fr/logistics-objects/company_ff"
+              },
+              "https://onerecord.iata.org/ns/cargo#role": "FreightForwarder"
+            }
+          ],
+          "https://onerecord.iata.org/ns/cargo#referredBookingOption": {
+            "@id": "https://neone.onerecord.fr/logistics-objects/booking_LUFT000001"
+          },
+          "https://onerecord.iata.org/ns/cargo#shipment": {
+            "@id": "https://neone.onerecord.fr/logistics-objects/shipment_FF000001"
+          },
+          "https://onerecord.iata.org/ns/cargo#waybillPrefix": "020",
+          "https://onerecord.iata.org/ns/cargo#waybillType": "Master",
+          "https://onerecord.iata.org/ns/cargo#waybillnumber": "12345675"
+        }
       }
     ]
   }

@@ -80,7 +80,7 @@
           "estimatedCostOperations": [],
           "relatedService": "{geodis}/tenants/geodis/services/FF000001",
           "delegatedService": "",
-          "activityName": "Post carriage",
+          "activityName": "Customs Import",
           "sequenceNumber": 3,
           "executionStatus": "NOT_PLANNED",
           "activityType": "CUSTOMS_CLEARANCE",

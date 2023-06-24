@@ -224,7 +224,7 @@
           "service": "{geodis}/tenants/geodis/services/TRK2000001",
           "serviceType": "TRANSPORT",
           "serviceSubtype": "FTL-LTL",
-          "serviceName": "pPost-carriage Frankfurt",
+          "serviceName": "Post-carriage Frankfurt",
           "serviceDescription": "post-carriage Frankfurt",
           "contacts": [
             {
@@ -543,7 +543,7 @@
           "delegatedService": "",
           "activityName": "Post carriage",
           "sequenceNumber": 4,
-          "executionStatus": "NOT_PLANNED",
+          "executionStatus": "SCHEDULED",
           "activityType": "TRANSPORT",
           "activitySubtype": "FTL-LTL",
           "processReference": "",
