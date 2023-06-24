@@ -1,0 +1,18 @@
+[
+    {
+      "parallel": true,
+      "requests": [
+        {
+          "action": "delete_lo",
+          "loId": "piece_test"
+        },
+        {
+          "action": "delete_event",
+          "loId": "piece_test",
+          "params": {
+            "id": "piece_test_DEP"
+          }
+        }
+      ]
+    }
+  ]

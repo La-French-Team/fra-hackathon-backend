@@ -1,0 +1,154 @@
+[
+  {
+    "parallel": true,
+    "requests": [
+      {
+        "action": "create_lo",
+        "tenant": "geodis",
+        "type": "Service",
+        "params": {
+          "id": "RAIL.MUL.SIB.20230320"
+        },
+        "body": {
+          "activities": [
+            "{geodis}/tenants/geodis/activities/RAIL.MUL.SIB.20230320.1",
+            "{geodis}/tenants/geodis/activities/RAIL.MUL.SIB.20230320.2",
+            "{geodis}/tenants/geodis/activities/RAIL.MUL.SIB.20230320.3",
+            "{geodis}/tenants/geodis/activities/RAIL.MUL.SIB.20230320.4",
+            "{geodis}/tenants/geodis/activities/RAIL.MUL.SIB.20230320.5",
+            "{geodis}/tenants/geodis/activities/RAIL.MUL.SIB.20230320.6",
+            "{geodis}/tenants/geodis/activities/RAIL.MUL.SIB.20230320.7"
+          ],
+          "parentActivities": [],
+          "provider": {
+            "partyName": "FRET SNCF"
+          },
+          "requestor": {
+            "partyName": "FRET SNCF"
+          },
+          "sharedExecutionPlan": "{geodis}/tenants/geodis/execution-plans/Shared.RAIL.MUL.SIB.20230320",
+          "saleOperations": [],
+          "sla": {
+            "requestedSLA": "",
+            "plannedSLA": "",
+            "actualSLA": ""
+          },
+          "invoiceStatus": "NOT_INVOICED",
+          "incoterm": "DDP",
+          "isDangerous": false,
+          "serviceAgreementReference": "National Line",
+          "serviceNature": "LOGISTICS",
+          "serviceStatus": "APPROVED",
+          "serviceType": "RAIL_TRANSPORT",
+          "serviceSubtype": "LINEHAUL",
+          "totalOperationAmount": {
+            "value": "",
+            "unit": ""
+          },
+          "executionStatus": "SCHEDULED",
+          "serviceName": "54263 Mulhouse Sibelin",
+          "serviceDescription": "Ligne intersites n° 54263 mulhouse -> Sibelin",
+          "contacts": [
+            {
+              "role": "DISPATCH",
+              "phone": "01.02.03.04.05",
+              "email": ""
+            }
+          ],
+          "externalReferences": [
+            {
+              "description": "Référence system 54263.1 fret SNCF",
+              "reference": "54263.1",
+              "externalReferenceType": "PROVIDER_ID"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "parallel": true,
+    "requests": [
+      {
+        "action": "create_lo",
+        "tenant": "geodis",
+        "type": "Activity",
+        "params": {
+          "id": "RAIL.MUL.SIB.20230320.1"
+        },
+        "body": {
+          "executionPlan": "{geodis}/tenants/geodis/execution-plans/RAIL.MUL.SIB.20230320.1",
+          "sharedExecutionPlan": "",
+          "serviceRequests": [],
+          "estimatedCostOperations": [],
+          "relatedService": "{geodis}/tenants/geodis/services/RAIL.MUL.SIB.20230320",
+          "delegatedService": "",
+          "activityName": "Accroche wagons",
+          "sequenceNumber": 1,
+          "executionStatus": "SCHEDULED",
+          "activityType": "SHUNTING",
+          "activitySubtype": "CAR_SHUNTING",
+          "processReference": "",
+          "contacts": [
+            {
+              "role": "DISPATCH",
+              "phone": "01.02.03.04.05",
+              "email": ""
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "parallel": true,
+    "requests": [
+      {
+        "action": "create_lo",
+        "tenant": "geodis",
+        "type": "ExecutionPlan",
+        "params": {
+          "id": "MUL.SIB.20230320.1"
+        },
+        "body": {
+          "milestones": [
+            {
+              "location": {
+                "address": {
+                  "addressCountry": {
+                    "countryCode": "FR",
+                    "countryName": "France"
+                  },
+                  "addressLocality": "Mulhouse",
+                  "addressRegion": "",
+                  "postOfficeBoxNumber": "",
+                  "postalCode": "68100",
+                  "streetAddress": "Avenue de Colmar"
+                },
+                "locationName": "Gare Mulhouse Nord",
+                "locationType": "RAIL_STATION"
+              },
+              "startSchedule": {
+                "earliestRequestedDateTime": "2023-03-20T10:00:00.000Z",
+                "latestRequestedDateTime": "2023-03-20T10:00:00.000Z",
+                "earliestPlannedDateTime": "2023-03-20T10:00:00.000Z",
+                "latestPlannedDateTime": "2023-03-20T10:00:00.000Z"
+              },
+              "endSchedule": {
+                "earliestRequestedDateTime": "2023-03-20T10:30:00.000Z",
+                "latestRequestedDateTime": "2023-03-20T10:30:00.000Z",
+                "earliestPlannedDateTime": "2023-03-20T10:30:00.000Z",
+                "latestPlannedDateTime": "2023-03-20T10:30:00.000Z"
+              },
+              "requestedMovements": [],
+              "plannedMovements": [],
+              "actualMovements": [],
+              "isRequested": true
+            }
+          ],
+          "executionPlanStatus": "SCHEDULED"
+        }
+      }
+    ]
+  }
+]

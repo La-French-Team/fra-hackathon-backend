@@ -1,0 +1,35 @@
+[
+  {
+    "parallel": true,
+    "requests": [
+      {
+        "action": "delete",
+        "tenant": "geodis",
+        "type": "Service",
+        "loId": "RAIL.MUL.SIB.20230320"
+      }
+    ]
+  },
+  {
+    "parallel": true,
+    "requests": [
+      {
+        "action": "delete",
+        "tenant": "geodis",
+        "type": "Activity",
+        "loId": "RAIL.MUL.SIB.20230320.1"
+      }
+    ]
+  },
+  {
+    "parallel": true,
+    "requests": [
+      {
+        "action": "delete",
+        "tenant": "geodis",
+        "type": "ExecutionPlan",
+        "loId": "MUL.SIB.20230320.1"
+      }
+    ]
+  }
+]

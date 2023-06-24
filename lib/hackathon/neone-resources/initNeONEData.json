@@ -1,0 +1,26 @@
+[
+  {
+    "parallel": true,
+    "requests": [
+      {
+        "action": "create_lo",
+        "body": {
+          "@context": {
+            "cargo": "https://onerecord.iata.org/ns/cargo#"
+          },
+          "@id": "https://neone.onerecord.fr/logistics-objects/piece_test",
+          "@type": "cargo:Piece",
+          "cargo:coload": false,
+          "cargo:handlingInstructions": [
+            {
+              "@type": "cargo:HandlingInstructions",
+              "cargo:serviceType": "SPH",
+              "cargo:serviceDescription": "Valuable Cargo",
+              "cargo:serviceTypeCode": "VAL"
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

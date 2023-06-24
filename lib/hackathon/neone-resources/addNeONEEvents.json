@@ -1,0 +1,37 @@
+[
+  {
+    "parallel": true,
+    "requests": [
+      {
+        "action": "create_event",
+        "tenant": "geodis",
+        "type": "Activity",
+        "loId": "piece_test",
+        "params": {
+          "id": "piece_test_DEP"
+        },
+        "body": {
+          "@type": "https://onerecord.iata.org/Event",
+          "https://onerecord.iata.org/ns/cargo#dateTime": "2023-05-16T10:38:01.000Z",
+          "https://onerecord.iata.org/ns/cargo#creationDate": "2023-05-16T10:38:01.000Z",
+          "https://onerecord.iata.org/ns/cargo#eventDate": "2023-05-16T10:38:01.000Z",
+          "https://onerecord.iata.org/ns/cargo#eventCode": "DEP",
+          "https://onerecord.iata.org/ns/cargo#eventName": "Consignment departed on a specific flight",
+          "https://onerecord.iata.org/ns/cargo#eventTypeIndicator": "Actual",
+          "https://onerecord.iata.org/ns/cargo#linkedObject": {
+            "@type": "https://onerecord.iata.org/ns/cargo/Piece",
+            "@id": "https://neone.onerecord.fr/logistics-objects/piece_test"
+          },
+          "https://onerecord.iata.org/ns/cargo#performedBy": {
+            "@type": "https://onerecord.iata.org/ns/cargo/Company",
+            "@id": "https://neone.onerecord.fr/lufthansa-cargo"
+          },
+          "https://onerecord.iata.org/ns/cargo#performedByPerson": {
+            "@type": "https://onerecord.iata.org/ns/cargo/Person",
+            "@id": "https://neone.onerecord.fr/lufthansa-cargo"
+          }
+        }
+      }
+    ]
+  }
+]

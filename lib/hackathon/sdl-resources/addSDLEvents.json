@@ -1,0 +1,71 @@
+[
+  {
+    "parallel": false,
+    "requests": [
+      {
+        "action": "create_event",
+        "tenant": "geodis",
+        "type": "Activity",
+        "loId": "RAIL.MUL.SIB.20230320.1",
+        "params": {
+          "id": "RAIL.MUL.SIB.20230320.1.started"
+        },
+        "body": {
+          "eventType": "BUSINESS",
+          "code": "ACTIVITY_STARTED",
+          "domain": "SCHEDULE",
+          "description": "Activity Transport Collecte wagons finished",
+          "location": {
+            "address": {
+              "addressCountry": {
+                "countryCode": "FR",
+                "countryName": "France"
+              },
+              "addressLocality": "Dole",
+              "addressRegion": "",
+              "postOfficeBoxNumber": "",
+              "postalCode": "39100",
+              "streetAddress": "2 Avenue de Landon"
+            },
+            "locationName": "Gare Dole",
+            "locationType": "RAIL_STATION"
+          },
+          "actualDateTime": "2023-03-20T12:05:00.000Z",
+          "creationDateTime": "2023-03-20T12:06:00.000Z"
+        }
+      },
+      {
+        "action": "create_event",
+        "tenant": "geodis",
+        "type": "Activity",
+        "loId": "RAIL.MUL.SIB.20230320.1",
+        "params": {
+          "id": "RAIL.MUL.SIB.20230320.1.finished"
+        },
+        "body": {
+          "eventType": "BUSINESS",
+          "code": "ACTIVITY_FINISHED",
+          "domain": "SCHEDULE",
+          "description": "Activity Transport Collecte wagons finished",
+          "location": {
+            "address": {
+              "addressCountry": {
+                "countryCode": "FR",
+                "countryName": "France"
+              },
+              "addressLocality": "Dole",
+              "addressRegion": "",
+              "postOfficeBoxNumber": "",
+              "postalCode": "39100",
+              "streetAddress": "2 Avenue de Landon"
+            },
+            "locationName": "Gare Dole",
+            "locationType": "RAIL_STATION"
+          },
+          "actualDateTime": "2023-03-20T12:05:00.000Z",
+          "creationDateTime": "2023-03-20T12:06:00.000Z"
+        }
+      }
+    ]
+  }
+]
