@@ -1,0 +1,29 @@
+{
+  "@id":"https://neone.onerecord.fr/logistics-objects/booking_LUFT000001",
+  "@type":"https://onerecord.iata.org/ns/cargo#Booking",
+  "https://onerecord.iata.org/ns/cargo#activitySequences": 
+  [
+    {
+      "@id":"neone:be8bb700-2535-47f6-a3d3-996d3d5f87be",
+      "@type":"https://onerecord.iata.org/ns/cargo#ActivitySequence",
+      "https://onerecord.iata.org/ns/cargo#activity":
+      {
+        "@id":"https://neone.onerecord.fr/logistics-objects/transport-movement_LUFT000001.1"
+      },
+      "https://onerecord.iata.org/ns/cargo#sequenceNumber":"1"
+    },
+    {
+      "@id":"neone:314627e7-0baa-47ab-a215-b1b01ed1c2e0",
+      "@type":"https://onerecord.iata.org/ns/cargo#ActivitySequence",
+      "https://onerecord.iata.org/ns/cargo#activity":
+      {
+        "@id":"https://neone.onerecord.fr/logistics-objects/transport-movement_LUFT000001.1"
+      },
+      "https://onerecord.iata.org/ns/cargo#sequenceNumber":"2"
+    }
+  ],
+  "https://onerecord.iata.org/ns/cargo#issuedForWaybill":
+  {
+    "@id":"https://neone.onerecord.fr/logistics-objects/waybill_LUFT000001.123"
+  }
+}
