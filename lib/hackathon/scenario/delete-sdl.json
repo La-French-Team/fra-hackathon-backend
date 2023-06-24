@@ -59,6 +59,24 @@
       {
         "action": "delete",
         "tenant": "geodis",
+        "type": "Piece",
+        "loId": "p123456"
+      },
+      {
+        "action": "delete",
+        "tenant": "geodis",
+        "type": "Piece",
+        "loId": "p123457"
+      },
+      {
+        "action": "delete",
+        "tenant": "geodis",
+        "type": "Piece",
+        "loId": "p123458"
+      },
+      {
+        "action": "delete",
+        "tenant": "geodis",
         "type": "ServiceRequest",
         "loId": "CUST00001"
       },
