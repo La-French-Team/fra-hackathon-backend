@@ -1,8 +1,8 @@
 {
   "eventType": "BUSINESS",
-  "code": "SERVICE_FINISHED",
+  "code": "ACTIVITY_FINISHED",
   "domain":"SCHEDULE",
-  "description" : "Service finished",
+  "description" : "Activity finished",
   "location": {
     "address": {
       "addressCountry": {
