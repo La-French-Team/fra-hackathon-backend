@@ -20,7 +20,7 @@
   },
   "sharedExecutionPlan": "{geodis}/tenants/geodis/execution-plans/CUST00001",
   "parentActivities": [
-    "{seller}/tenants/geodis/activities/CUS.TAV.BEV.20230320.1.2"
+    "https://seller.sdlserver.com/tenants/geodis/activities/CUS.TAV.BEV.20230320.1.2"
   ],
   "isDangerous": false,
   "productDescription": "vaccin",

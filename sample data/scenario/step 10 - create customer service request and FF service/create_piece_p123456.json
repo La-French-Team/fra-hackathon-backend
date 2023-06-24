@@ -1,0 +1,39 @@
+{
+  "contacts": [],
+  "containedItems": [],
+  "dimensions": {
+    "height": {
+      "unit": "M",
+      "value": 0.3
+    },
+    "length": {
+      "unit": "M",
+      "value": 0.3
+    },
+    "width": {
+      "unit": "M",
+      "value": 0.3
+    },
+    "volume": {
+      "unit": "CBM",
+      "value": 0.027
+    }
+  },
+  "documents": [],
+  "externalReferences": [],
+  "goodsDescription": "Vaccines",
+  "grossWeight": {
+    "unit": "KG",
+    "value": 0.3
+  },
+  "isInPieces": [],
+  "netWeight": {
+    "unit": "KG",
+    "value": 0.4
+  },
+  "packagingType": "",
+  "specialCharacteristics": [],
+  "specialInstructions": [],
+  "stackable": 1,
+  "turnable": true
+}
