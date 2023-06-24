@@ -11,6 +11,7 @@
   "type": "module",
   "scripts": {
     "start": "node server.js",
+    "dev": "cross-env NODE_ENV=development ergol server.js -c ergol.config.json",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "repository": {
@@ -40,7 +41,9 @@
     "@fastify/sensible": "^5.2.0",
     "@fastify/under-pressure": "^8.2.0",
     "close-with-grace": "^1.2.0",
+    "cross-env": "^7.0.3",
     "dotenv": "^16.1.4",
+    "ergol": "^1.0.2",
     "fastify": "^4.18.0",
     "got": "^13.0.0",
     "http-requests-runner": "./lib/core-engine/http-requests-runner-1.0.0.tgz",

@@ -1,0 +1,5 @@
+{
+  "killDelay": "5000",
+  "nodeArgs": ["--inspect=0.0.0.0:9230"],
+  "watch": ["server.js", "lib", "node_modules"]
+}
