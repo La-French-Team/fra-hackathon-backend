@@ -13,6 +13,30 @@
         {
           "action": "delete_lo",
           "loId": "piece_p123458"
+        },
+        {
+          "action": "delete_lo",
+          "loId": "action-build-up-requested"
+        },
+        {
+          "action": "delete_lo",
+          "loId": "action-onloading-1-1"
+        },
+        {
+          "action": "delete_lo",
+          "loId": "booking_LUFT000001"
+        },
+        {
+          "action": "delete_lo",
+          "loId": "shipment_FF000001"
+        },
+        {
+          "action": "delete_lo",
+          "loId": "transportMovement_LUFT000001.1"
+        },
+        {
+          "action": "delete_lo",
+          "loId": "waybill_LUFT000001"
         }
       ]
     }
