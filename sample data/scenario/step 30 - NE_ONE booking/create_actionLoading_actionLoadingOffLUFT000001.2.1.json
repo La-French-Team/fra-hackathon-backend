@@ -1,0 +1,22 @@
+{
+  "@id": "https://neone.onerecord.fr/logistics-objects/actionLoadingOff1.2.1",
+  "@type": "https://onerecord.iata.org/ns/cargo#Loading",
+  "https://onerecord.iata.org/ns/cargo#actionEndTime": {
+    "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value": "2023-06-24T10:30:00Z"
+  },
+  "https://onerecord.iata.org/ns/cargo#actionTimeType": "Planned",
+  "https://onerecord.iata.org/ns/cargo#compositionType": "Offloading",
+  "https://onerecord.iata.org/ns/cargo#contactPerson": {
+    "@id": ""
+  },
+  "https://onerecord.iata.org/ns/cargo#loadingUnit": {
+    "@id": "https://neone.onerecord.fr/logistics-objects/uld12345"
+  },
+  "https://onerecord.iata.org/ns/cargo#performedAtLocation": {
+    "@id": "https://neone.onerecord.fr/logistics-objects/fra-pickup-zone"
+  },
+  "https://onerecord.iata.org/ns/cargo#servedActivity": {
+    "@id": "https://neone.onerecord.fr/logistics-objects/transportMovement_LUFT000001.2"
+  }
+}

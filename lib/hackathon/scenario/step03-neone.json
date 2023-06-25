@@ -29,7 +29,7 @@
       {
         "action": "create_lo",
         "body": {
-          "@id": "https://neone.onerecord.fr/logistics-objects/action-build-up-requested",
+          "@id": "https://neone.onerecord.fr/logistics-objects/actionComposingLUFT000001.1.1",
           "@type": "https://onerecord.iata.org/ns/cargo#Composing",
           "https://onerecord.iata.org/ns/cargo#actionEndTime": {
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
@@ -66,7 +66,7 @@
       {
         "action": "create_lo",
         "body": {
-          "@id": "https://neone.onerecord.fr/logistics-objects/action-onloading-1-1",
+          "@id": "https://neone.onerecord.fr/logistics-objects/actionLoadingOnLUFT000001.1.1",
           "@type": "https://onerecord.iata.org/ns/cargo#Loading",
           "https://onerecord.iata.org/ns/cargo#actionEndTime": {
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime",

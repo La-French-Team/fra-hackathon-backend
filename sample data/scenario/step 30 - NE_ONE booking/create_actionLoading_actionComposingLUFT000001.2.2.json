@@ -1,0 +1,34 @@
+{
+  "@id": "https://neone.onerecord.fr/logistics-objects/actionComposingLUFT000001.2.2",
+  "@type": "https://onerecord.iata.org/ns/cargo#Composing",
+  "https://onerecord.iata.org/ns/cargo#actionEndTime": {
+    "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value": "2023-06-25T10:15:00Z"
+  },
+  "https://onerecord.iata.org/ns/cargo#actionStartTime": {
+    "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value": "2023-06-25T10:30:00Z"
+  },
+  "https://onerecord.iata.org/ns/cargo#actionTimeType": "Requested",
+  "https://onerecord.iata.org/ns/cargo#composedPieces": [
+    {
+      "@id": "https://sdl.onerecord.fr/tenants/geodis/pieces/p123456"
+    },
+    {
+      "@id": "https://sdl.onerecord.fr/tenants/geodis/pieces/p123457"
+    },
+    {
+      "@id": "https://sdl.onerecord.fr/tenants/geodis/pieces/p123458"
+    }
+  ],
+  "https://onerecord.iata.org/ns/cargo#compositionType": "BreakDown",
+  "https://onerecord.iata.org/ns/cargo#contactPerson": {
+    "@id": ""
+  },
+  "https://onerecord.iata.org/ns/cargo#performedAtLocation": {
+    "@id": "https://neone.onerecord.fr/logistics-objects/fra-dropoff-zone"
+  },
+  "https://onerecord.iata.org/ns/cargo#servedActivity": {
+    "@id": "https://neone.onerecord.fr/logistics-objects/transportMovementLUFT000001.2"
+  }
+}
