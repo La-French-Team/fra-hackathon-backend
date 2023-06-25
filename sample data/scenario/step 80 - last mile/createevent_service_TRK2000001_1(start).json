@@ -1,0 +1,23 @@
+{
+  "eventType": "BUSINESS",
+  "code": "SERVICE_STARTED",
+  "domain":"SCHEDULE",
+  "description" : "Service started",
+  "location": {
+    "address": {
+      "addressCountry": {
+        "countryCode": "DE",
+        "countryName": "Germany"
+      },
+      "addressLocality": "Frankfurt",
+      "addressRegion": "",
+      "postOfficeBoxNumber": "",
+      "postalCode": "60312",
+      "streetAddress": ""
+    },
+    "locationName": "Frankfurt Airport",
+    "locationType": "AIRPORT"
+  },
+  "actualDateTime": "2023-06-25T10:45:00.000Z",
+  "creationDateTime": "2023-06-25T10:45:00.010Z"
+}

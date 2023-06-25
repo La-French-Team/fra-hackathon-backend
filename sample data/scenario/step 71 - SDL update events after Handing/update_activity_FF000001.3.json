@@ -1,0 +1,21 @@
+{
+	"executionPlan": "{geodis}/tenants/geodis/execution-plans/FF000001.3",
+	"sharedExecutionPlan": "",
+	"serviceRequests": [],
+	"estimatedCostOperations": [],
+	"relatedService": "{geodis}/tenants/geodis/services/FF000001",
+	"delegatedService": "",
+	"activityName": "Customs Import",
+	"sequenceNumber": 3,
+	"executionStatus": "FINISHED",
+	"activityType": "CUSTOMS_CLEARANCE",
+	"activitySubtype": "IMPORT_CUSTOMS",
+	"processReference": "",
+	"contacts": [
+		{
+			"role": "DISPATCH",
+			"phone": "+49.01.02.03.04.06",
+			"email": ""
+		}
+	]
+}

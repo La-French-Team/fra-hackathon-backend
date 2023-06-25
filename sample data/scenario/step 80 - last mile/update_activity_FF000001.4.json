@@ -1,0 +1,21 @@
+{
+	"executionPlan": "{geodis}/tenants/geodis/execution-plans/FF000001.4",
+	"sharedExecutionPlan": "",
+	"serviceRequests": [],
+	"estimatedCostOperations": [],
+	"relatedService": "{geodis}/tenants/geodis/services/FF000001",
+	"delegatedService": "",
+	"activityName": "Post carriage",
+	"sequenceNumber": 4,
+	"executionStatus": "FINISHED",
+	"activityType": "TRANSPORT",
+	"activitySubtype": "FTL-LTL",
+	"processReference": "",
+	"contacts": [
+		{
+			"role": "DISPATCH",
+			"phone": "+49.01.02.03.04.06",
+			"email": ""
+		}
+	]
+}
