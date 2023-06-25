@@ -92,6 +92,27 @@
         "params": {
           "id": "waybill_LUFT000001_ARR"
         }
+      },
+      {
+        "action": "delete_event",
+        "loId": "waybill_LUFT000001",
+        "params": {
+          "id": "waybill_LUFT000001_FIW"
+        }
+      },
+      {
+        "action": "delete_event",
+        "loId": "waybill_LUFT000001",
+        "params": {
+          "id": "waybill_LUFT000001_RCS"
+        }
+      },
+      {
+        "action": "delete_event",
+        "loId": "waybill_LUFT000001",
+        "params": {
+          "id": "waybill_LUFT000001_NFD"
+        }
       }
     ]
   }
