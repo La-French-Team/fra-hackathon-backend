@@ -111,7 +111,7 @@
         "latestRequestedDateTime": "2023-06-25T09:30:00.000Z",
         "earliestPlannedDateTime": "2023-06-25T09:30:00.000Z",
         "latestPlannedDateTime": "2023-06-25T09:30:00.000Z",
-        "actualDate": "2023-06-25T11:00:00.000Z"
+        "actualDateTime": "2023-06-25T11:00:00.000Z"
       },
       "requestedMovements": [
         {

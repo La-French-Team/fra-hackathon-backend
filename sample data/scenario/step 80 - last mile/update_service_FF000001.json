@@ -65,5 +65,16 @@
       "instructionCode": "45668554.1.12",
       "description": "Care protocol 45668554.1.12"
     }
+  ],
+  "documents": [
+    {
+      "cmsUri": "https://discord.gg/mum9RZdDp3",
+      "documentName": "POD/45554",
+      "documentType": "TRANSPORT_DOCUMENT",
+      "documentSubtype": "POD",
+      "format": "JPEG",
+      "isRequired": true,
+      "suppliedWithGoods": true
+    }
   ]
 }
