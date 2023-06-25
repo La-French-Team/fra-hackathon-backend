@@ -1,6 +1,6 @@
 [
   {
-    "parallel": true,
+    "parallel": false,
     "requests": [
       {
         "action": "create_event",
@@ -1197,485 +1197,66 @@
         }
       },
       {
-        "action": "create_event",
-        "tenant": "geodis",
-        "type": "Activity",
-        "loId": "FF000001.1",
-        "params": {
-          "id": "FF000001.1_5(locationExit)"
-        },
-        "body": {
-          "eventType": "BUSINESS",
-          "code": "LOCATION_EXIT",
-          "domain": "SCHEDULE",
-          "description": "Exiting Seller plant",
-          "location": {
-            "address": {
-              "addressCountry": {
-                "countryCode": "US",
-                "countryName": "United States"
-              },
-              "addressLocality": "Chicago",
-              "addressRegion": "",
-              "postOfficeBoxNumber": "",
-              "postalCode": "55131",
-              "streetAddress": ""
-            },
-            "locationName": "CHICAGO AIRPORT",
-            "locationType": "AIRPORT"
-          },
-          "actualDateTime": "2023-06-23T11:25:00.000Z",
-          "creationDateTime": "2023-06-23T11:25:00.010Z"
-        }
-      },
-      {
-        "action": "create_event",
-        "tenant": "geodis",
-        "type": "Activity",
-        "loId": "FF000001.1",
-        "params": {
-          "id": "FF000001.1_6(end)"
-        },
-        "body": {
-          "eventType": "BUSINESS",
-          "code": "ACTIVITY_FINISHED",
-          "domain": "SCHEDULE",
-          "description": "Activity finished",
-          "location": {
-            "address": {
-              "addressCountry": {
-                "countryCode": "US",
-                "countryName": "United States"
-              },
-              "addressLocality": "Chicago",
-              "addressRegion": "",
-              "postOfficeBoxNumber": "",
-              "postalCode": "55131",
-              "streetAddress": ""
-            },
-            "locationName": "CHICAGO AIRPORT",
-            "locationType": "AIRPORT"
-          },
-          "actualDateTime": "2023-06-23T11:25:00.000Z",
-          "creationDateTime": "2023-06-23T11:25:00.010Z"
-        }
-      },
-      {
-        "action": "create_event",
-        "tenant": "geodis",
-        "type": "Activity",
-        "loId": "FF000001.2",
-        "params": {
-          "id": "FF000001.2_1(start)"
-        },
-        "body": {
-          "eventType": "BUSINESS",
-          "code": "ACTIVITY_STARTED",
-          "domain": "SCHEDULE",
-          "description": "Activity started",
-          "location": {
-            "address": {
-              "addressCountry": {
-                "countryCode": "US",
-                "countryName": "United States"
-              },
-              "addressLocality": "Chicago",
-              "addressRegion": "",
-              "postOfficeBoxNumber": "",
-              "postalCode": "55131",
-              "streetAddress": ""
-            },
-            "locationName": "CHICAGO AIRPORT",
-            "locationType": "AIRPORT"
-          },
-          "actualDateTime": "2023-06-23T11:25:00.000Z",
-          "creationDateTime": "2023-06-23T11:25:00.010Z"
-        }
-      },
-      {
-        "action": "create_event",
-        "tenant": "geodis",
-        "type": "Activity",
-        "loId": "FF000001.2",
-        "params": {
-          "id": "FF000001.2_2(FOH)"
-        },
-        "body": {
-          "eventType": "BUSINESS",
-          "code": "FOH",
-          "domain": "AIR",
-          "description": "Freight on Hand",
-          "location": {
-            "address": {
-              "addressCountry": {
-                "countryCode": "US",
-                "countryName": "United States"
-              },
-              "addressLocality": "Chicago",
-              "addressRegion": "",
-              "postOfficeBoxNumber": "",
-              "postalCode": "55131",
-              "streetAddress": ""
-            },
-            "locationName": "CHICAGO AIRPORT",
-            "locationType": "AIRPORT"
-          },
-          "actualDateTime": "2023-06-23T11:25:00.000Z",
-          "creationDateTime": "2023-06-23T11:25:00.010Z"
-        }
-      },
-      {
-        "action": "create_event",
-        "tenant": "geodis",
-        "type": "Activity",
-        "loId": "FF000001.2",
-        "params": {
-          "id": "FF000001.2_3(DEP)"
-        },
-        "body": {
-          "eventType": "BUSINESS",
-          "code": "DEP",
-          "domain": "AIR",
-          "description": "Departed",
-          "location": {
-            "address": {
-              "addressCountry": {
-                "countryCode": "US",
-                "countryName": "United States"
-              },
-              "addressLocality": "Chicago",
-              "addressRegion": "",
-              "postOfficeBoxNumber": "",
-              "postalCode": "55131",
-              "streetAddress": ""
-            },
-            "locationName": "CHICAGO AIRPORT",
-            "locationType": "AIRPORT"
-          },
-          "actualDateTime": "2023-06-24T10:30:00.000Z",
-          "creationDateTime": "2023-06-24T10:30:00.000Z"
-        }
-      },
-      {
-        "action": "create_event",
-        "tenant": "geodis",
-        "type": "Activity",
-        "loId": "FF000001.2",
-        "params": {
-          "id": "FF000001.2_4(ARR)"
-        },
-        "body": {
-          "eventType": "BUSINESS",
-          "code": "ARR",
-          "domain": "AIR",
-          "description": "Arriving at Chicago Airport",
-          "location": {
-            "address": {
-              "addressCountry": {
-                "countryCode": "DE",
-                "countryName": "Germany"
-              },
-              "addressLocality": "Frankfurt",
-              "addressRegion": "",
-              "postOfficeBoxNumber": "",
-              "postalCode": "60312",
-              "streetAddress": ""
-            },
-            "locationName": "Frankfurt Airport",
-            "locationType": "AIRPORT"
-          },
-          "actualDateTime": "2023-06-25T08:00:00.000Z",
-          "creationDateTime": "2023-06-23T08:10:00.010Z"
-        }
-      },
-      {
-        "action": "create_event",
-        "tenant": "geodis",
-        "type": "Service",
-        "loId": "FF000001",
-        "params": {
-          "id": "FF000001_4(FOH)"
-        },
-        "body": {
-          "eventType": "BUSINESS",
-          "code": "FOH",
-          "domain": "AIR",
-          "description": "Freight on Hand",
-          "location": {
-            "address": {
-              "addressCountry": {
-                "countryCode": "US",
-                "countryName": "United States"
-              },
-              "addressLocality": "Chicago",
-              "addressRegion": "",
-              "postOfficeBoxNumber": "",
-              "postalCode": "55131",
-              "streetAddress": ""
-            },
-            "locationName": "CHICAGO AIRPORT",
-            "locationType": "AIRPORT"
-          },
-          "actualDateTime": "2023-06-23T11:25:00.000Z",
-          "creationDateTime": "2023-06-23T11:25:00.010Z"
-        }
-      },
-      {
-        "action": "create_event",
-        "tenant": "geodis",
-        "type": "Service",
-        "loId": "FF000001",
-        "params": {
-          "id": "FF000001_5(ARR)"
-        },
-        "body": {
-          "eventType": "BUSINESS",
-          "code": "ARR",
-          "domain": "AIR",
-          "description": "Arriving at Chicago Airport",
-          "location": {
-            "address": {
-              "addressCountry": {
-                "countryCode": "DE",
-                "countryName": "Germany"
-              },
-              "addressLocality": "Frankfurt",
-              "addressRegion": "",
-              "postOfficeBoxNumber": "",
-              "postalCode": "60312",
-              "streetAddress": ""
-            },
-            "locationName": "Frankfurt Airport",
-            "locationType": "AIRPORT"
-          },
-          "actualDateTime": "2023-06-25T08:00:00.000Z",
-          "creationDateTime": "2023-06-23T08:10:00.010Z"
-        }
-      },
-      {
-        "action": "create_event",
-        "tenant": "geodis",
-        "type": "Service",
-        "loId": "FF000001",
-        "params": {
-          "id": "FF000001_6(DEP)"
-        },
-        "body": {
-          "eventType": "BUSINESS",
-          "code": "DEP",
-          "domain": "AIR",
-          "description": "Departed",
-          "location": {
-            "address": {
-              "addressCountry": {
-                "countryCode": "US",
-                "countryName": "United States"
-              },
-              "addressLocality": "Chicago",
-              "addressRegion": "",
-              "postOfficeBoxNumber": "",
-              "postalCode": "55131",
-              "streetAddress": ""
-            },
-            "locationName": "CHICAGO AIRPORT",
-            "locationType": "AIRPORT"
-          },
-          "actualDateTime": "2023-06-24T10:30:00.000Z",
-          "creationDateTime": "2023-06-24T10:30:00.000Z"
-        }
-      },
-      {
         "action": "update_lo",
         "tenant": "geodis",
-        "type": "Activity",
-        "loId": "FF000001.2",
+        "type": "Service",
+        "loId": "TRK1000001",
         "memberIdentifier": "{geodis}/members/geodis",
         "body": {
-          "executionPlan": "{geodis}/tenants/geodis/execution-plans/FF000001.2",
-          "sharedExecutionPlan": "{geodis}/tenants/geodis/execution-plans/FF000001.2",
-          "serviceRequests": [],
-          "estimatedCostOperations": [],
-          "relatedService": "{geodis}/tenants/geodis/services/FF000001",
-          "delegatedService": "",
-          "activityName": "Air Transport",
-          "sequenceNumber": 2,
-          "executionStatus": "STARTED",
-          "activityType": "TRANSPORT",
-          "activitySubtype": "AIR_TRANSPORT",
-          "processReference": "",
+          "activities": [],
+          "parentActivities": ["{geodis}/tenants/geodis/activities/FF000001.1"],
+          "provider": {
+            "partyName": "TRUCKER 1"
+          },
+          "requestor": {
+            "partyName": "LA FRENCH TEAM"
+          },
+          "sharedExecutionPlan": "{geodis}/tenants/geodis/execution-plans/FF000001.1",
+          "saleOperations": [],
+          "sla": {
+            "requestedSLA": "",
+            "plannedSLA": "",
+            "actualSLA": ""
+          },
+          "invoiceStatus": "NOT_INVOICED",
+          "incoterm": "",
+          "isDangerous": false,
+          "serviceAgreementReference": "1122332.125",
+          "serviceNature": "LOGISTICS",
+          "serviceStatus": "ACCEPTED",
+          "serviceType": "TRANSPORT",
+          "serviceSubtype": "FTL-LTL",
+          "totalOperationAmount": {
+            "value": "",
+            "unit": ""
+          },
+          "executionStatus": "FINISHED",
+          "serviceName": "Collect transport to Chicago",
+          "serviceDescription": "Collect transport to Chicago",
           "contacts": [
             {
-              "role": "DISPATCH",
-              "phone": "+1.01.02.03.04.06",
+              "role": "CUSTOMER_DISPATCH",
+              "phone": "+1604454545",
+              "email": ""
+            },
+            {
+              "role": "PROVIDER_DISPATCH",
+              "phone": "+121230405",
               "email": ""
             }
           ],
-          "specialInstructions": [
+          "externalReferences": [
             {
-              "instructionCode": "45668554.1.12",
-              "description": "Care protocol 45668554.1.12"
-            }
-          ]
-        }
-      },
-      {
-        "action": "update_lo",
-        "tenant": "geodis",
-        "type": "ExecutionPlan",
-        "loId": "FF000001.2",
-        "memberIdentifier": "{geodis}/members/geodis",
-        "body": {
-          "milestones": [
-            {
-              "location": {
-                "address": {
-                  "addressCountry": {
-                    "countryCode": "US",
-                    "countryName": "United States"
-                  },
-                  "addressLocality": "Chicago",
-                  "addressRegion": "",
-                  "postOfficeBoxNumber": "",
-                  "postalCode": "55131",
-                  "streetAddress": ""
-                },
-                "locationName": "CHICAGO AIRPORT",
-                "locationType": "AIRPORT"
-              },
-              "startSchedule": {
-                "earliestRequestedDateTime": "2023-06-23T10:00:00.000Z",
-                "latestRequestedDateTime": "2023-06-24T10:00:00.000Z",
-                "earliestPlannedDateTime": "2023-06-23T10:00:00.000Z",
-                "latestPlannedDateTime": "2023-06-24T10:00:00.000Z",
-                "actualDateTime": "2023-06-24T10:00:00.000Z"
-              },
-              "endSchedule": {
-                "earliestRequestedDateTime": "2023-06-23T10:30:00.000Z",
-                "latestRequestedDateTime": "2023-06-24T10:30:00.000Z",
-                "earliestPlannedDateTime": "2023-06-23T10:30:00.000Z",
-                "latestPlannedDateTime": "2023-06-24T10:30:00.000Z",
-                "actualDateTime": "2023-06-24T10:30:00.000Z"
-              },
-              "requestedMovements": [
-                {
-                  "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/pieces/p123456",
-                  "movementType": "IN"
-                },
-                {
-                  "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/pieces/p123457",
-                  "movementType": "IN"
-                },
-                {
-                  "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/pieces/p123458",
-                  "movementType": "IN"
-                }
-              ],
-              "plannedMovements": [
-                {
-                  "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/pieces/p123456",
-                  "movementType": "IN"
-                },
-                {
-                  "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/pieces/p123457",
-                  "movementType": "IN"
-                },
-                {
-                  "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/pieces/p123458",
-                  "movementType": "IN"
-                }
-              ],
-              "actualMovements": [
-                {
-                  "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/pieces/p123456",
-                  "movementType": "IN"
-                },
-                {
-                  "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/pieces/p123457",
-                  "movementType": "IN"
-                },
-                {
-                  "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/pieces/p123458",
-                  "movementType": "IN"
-                }
-              ],
-              "isRequested": true
+              "description": "service n° 12548793",
+              "reference": "12548793",
+              "externalReferenceType": "PROVIDER_ID"
             },
             {
-              "location": {
-                "address": {
-                  "addressCountry": {
-                    "countryCode": "DE",
-                    "countryName": "Germany"
-                  },
-                  "addressLocality": "Frankfurt",
-                  "addressRegion": "",
-                  "postOfficeBoxNumber": "",
-                  "postalCode": "60312",
-                  "streetAddress": ""
-                },
-                "locationName": "Frankfurt Airport",
-                "locationType": "AIRPORT"
-              },
-              "startSchedule": {
-                "earliestRequestedDateTime": "2023-06-25T08:00:00.000Z",
-                "latestRequestedDateTime": "2023-06-25T08:00:00.000Z",
-                "earliestPlannedDateTime": "2023-06-25T08:00:00.000Z",
-                "latestPlannedDateTime": "2023-06-25T08:00:00.000Z"
-              },
-              "endSchedule": {
-                "earliestRequestedDateTime": "2023-06-25T09:30:00.000Z",
-                "latestRequestedDateTime": "2023-06-25T09:30:00.000Z",
-                "earliestPlannedDateTime": "2023-06-25T09:30:00.000Z",
-                "latestPlannedDateTime": "2023-06-25T09:30:00.000Z"
-              },
-              "requestedMovements": [
-                {
-                  "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/pieces/p123456",
-                  "movementType": "OUT"
-                },
-                {
-                  "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/pieces/p123457",
-                  "movementType": "OUT"
-                },
-                {
-                  "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/pieces/p123458",
-                  "movementType": "OUT"
-                }
-              ],
-              "plannedMovements": [
-                {
-                  "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/pieces/p123456",
-                  "movementType": "OUT"
-                },
-                {
-                  "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/pieces/p123457",
-                  "movementType": "OUT"
-                },
-                {
-                  "containedObject": "",
-                  "container": "{geodis}/tenants/geodis/pieces/p123458",
-                  "movementType": "OUT"
-                }
-              ],
-              "actualMovements": [],
-              "isRequested": true
+              "description": "REQUESTOR_ID ABCDEFG.3",
+              "reference": "ABCDEFG.3",
+              "externalReferenceType": "REQUESTOR_ID"
             }
-          ],
-          "executionPlanStatus": "STARTED"
+          ]
         }
       }
     ]
