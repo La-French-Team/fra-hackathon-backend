@@ -16,11 +16,11 @@
       },
       {
         "action": "delete_lo",
-        "loId": "action-build-up-requested"
+        "loId": "actionComposingLUFT000001.1.1"
       },
       {
         "action": "delete_lo",
-        "loId": "action-onloading-1-1"
+        "loId": "actionLoadingOnLUFT000001.1.1"
       },
       {
         "action": "delete_lo",
