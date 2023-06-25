@@ -1,9 +1,6 @@
 {
-  "activities": [
-  ],
-  "parentActivities": [
-    "{geodis}/tenants/geodis/activities/FF000001.4"
-  ],
+  "activities": [],
+  "parentActivities": ["{geodis}/tenants/geodis/activities/FF000001.4"],
   "provider": {
     "partyName": "TRUCKER 2"
   },
@@ -58,7 +55,7 @@
   ],
   "documents": [
     {
-      "cmsUri": "https://discord.gg/mum9RZdDp3",
+      "cmsUri": "https://cdn.discordapp.com/attachments/1095627078889656320/1122250660109369444/POD.jpg",
       "documentName": "POD/45554",
       "documentType": "TRANSPORT_DOCUMENT",
       "documentSubtype": "POD",

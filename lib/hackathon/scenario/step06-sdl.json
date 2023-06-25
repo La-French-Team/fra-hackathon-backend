@@ -1,6 +1,6 @@
 [
   {
-    "parallel": true,
+    "parallel": false,
     "requests": [
       {
         "action": "create_event",
@@ -696,6 +696,17 @@
               "instructionCode": "45668554.1.12",
               "description": "Care protocol 45668554.1.12"
             }
+          ],
+          "documents": [
+            {
+              "cmsUri": "https://cdn.discordapp.com/attachments/1095627078889656320/1122250660109369444/POD.jpg",
+              "documentName": "POD/45554",
+              "documentType": "TRANSPORT_DOCUMENT",
+              "documentSubtype": "POD",
+              "format": "JPEG",
+              "isRequired": true,
+              "suppliedWithGoods": true
+            }
           ]
         }
       },
@@ -758,6 +769,17 @@
               "description": "REQUESTOR_ID ABCDEFG.4",
               "reference": "ABCDEFG.4",
               "externalReferenceType": "REQUESTOR_ID"
+            }
+          ],
+          "documents": [
+            {
+              "cmsUri": "https://cdn.discordapp.com/attachments/1095627078889656320/1122250660109369444/POD.jpg",
+              "documentName": "POD/45554",
+              "documentType": "TRANSPORT_DOCUMENT",
+              "documentSubtype": "POD",
+              "format": "JPEG",
+              "isRequired": true,
+              "suppliedWithGoods": true
             }
           ]
         }
