@@ -1,0 +1,767 @@
+[
+  {
+    "parallel": true,
+    "requests": [
+      {
+        "action": "create_event",
+        "tenant": "geodis",
+        "type": "Activity",
+        "loId": "FF000001.4",
+        "params": {
+          "id": "FF000001.4_1(Start)"
+        },
+        "body": {
+          "eventType": "BUSINESS",
+          "code": "ACTIVITY_STARTED",
+          "domain": "SCHEDULE",
+          "description": "Activity Started",
+          "location": {
+            "address": {
+              "addressCountry": {
+                "countryCode": "DE",
+                "countryName": "Germany"
+              },
+              "addressLocality": "Frankfurt",
+              "addressRegion": "",
+              "postOfficeBoxNumber": "",
+              "postalCode": "60312",
+              "streetAddress": ""
+            },
+            "locationName": "Frankfurt Airport",
+            "locationType": "AIRPORT"
+          },
+          "actualDateTime": "2023-06-25T11:00:00.000Z",
+          "creationDateTime": "2023-06-25T11:00:00.010Z"
+        }
+      },
+      {
+        "action": "create_event",
+        "tenant": "geodis",
+        "type": "Activity",
+        "loId": "FF000001.4",
+        "params": {
+          "id": "FF000001.4_2(End)"
+        },
+        "body": {
+          "eventType": "BUSINESS",
+          "code": "ACTIVITY_FINISHED",
+          "domain": "SCHEDULE",
+          "description": "Activity Finished",
+          "location": {
+            "address": {
+              "addressCountry": {
+                "countryCode": "DE",
+                "countryName": "Germany"
+              },
+              "addressLocality": "Mayence",
+              "addressRegion": "",
+              "postOfficeBoxNumber": "",
+              "postalCode": "55124",
+              "streetAddress": ""
+            },
+            "locationName": "BUYER LOCATION",
+            "locationType": "WAREHOUSE"
+          },
+          "actualDateTime": "2023-06-25T12:00:00.000Z",
+          "creationDateTime": "2023-06-25T12:00:00.010Z"
+        }
+      },
+      {
+        "action": "create_event",
+        "tenant": "geodis",
+        "type": "Activity",
+        "loId": "FF000001.4",
+        "params": {
+          "id": "FF000001.4_3(POD)"
+        },
+        "body": {
+          "eventType": "BUSINESS",
+          "code": "POD",
+          "domain": "SCHEDULE",
+          "description": "Proff of Delivery",
+          "location": {
+            "address": {
+              "addressCountry": {
+                "countryCode": "DE",
+                "countryName": "Germany"
+              },
+              "addressLocality": "Mayence",
+              "addressRegion": "",
+              "postOfficeBoxNumber": "",
+              "postalCode": "55124",
+              "streetAddress": ""
+            },
+            "locationName": "BUYER LOCATION",
+            "locationType": "WAREHOUSE"
+          },
+          "actualDateTime": "2023-06-25T12:00:00.000Z",
+          "creationDateTime": "2023-06-25T12:00:00.010Z"
+        }
+      },
+      {
+        "action": "create_event",
+        "tenant": "geodis",
+        "type": "Service",
+        "loId": "FF000001.4",
+        "params": {
+          "id": "FF000001.4_13(End)"
+        },
+        "body": {
+          "eventType": "BUSINESS",
+          "code": "SERVICE_FINISHED",
+          "domain": "SCHEDULE",
+          "description": "Service Finished",
+          "location": {
+            "address": {
+              "addressCountry": {
+                "countryCode": "DE",
+                "countryName": "Germany"
+              },
+              "addressLocality": "Mayence",
+              "addressRegion": "",
+              "postOfficeBoxNumber": "",
+              "postalCode": "55124",
+              "streetAddress": ""
+            },
+            "locationName": "BUYER LOCATION",
+            "locationType": "WAREHOUSE"
+          },
+          "actualDateTime": "2023-06-25T12:00:00.000Z",
+          "creationDateTime": "2023-06-25T12:00:00.010Z"
+        }
+      },
+      {
+        "action": "create_event",
+        "tenant": "geodis",
+        "type": "Service",
+        "loId": "FF000001",
+        "params": {
+          "id": "FF000001_12(POD)"
+        },
+        "body": {
+          "eventType": "BUSINESS",
+          "code": "POD",
+          "domain": "SCHEDULE",
+          "description": "Proff of Delivery",
+          "location": {
+            "address": {
+              "addressCountry": {
+                "countryCode": "DE",
+                "countryName": "Germany"
+              },
+              "addressLocality": "Mayence",
+              "addressRegion": "",
+              "postOfficeBoxNumber": "",
+              "postalCode": "55124",
+              "streetAddress": ""
+            },
+            "locationName": "BUYER LOCATION",
+            "locationType": "WAREHOUSE"
+          },
+          "actualDateTime": "2023-06-25T12:00:00.000Z",
+          "creationDateTime": "2023-06-25T12:00:00.010Z"
+        }
+      },
+      {
+        "action": "create_event",
+        "tenant": "geodis",
+        "type": "Service",
+        "loId": "TRK2000001",
+        "params": {
+          "id": "TRK2000001_1(start)"
+        },
+        "body": {
+          "eventType": "BUSINESS",
+          "code": "SERVICE_STARTED",
+          "domain": "SCHEDULE",
+          "description": "Service started",
+          "location": {
+            "address": {
+              "addressCountry": {
+                "countryCode": "DE",
+                "countryName": "Germany"
+              },
+              "addressLocality": "Frankfurt",
+              "addressRegion": "",
+              "postOfficeBoxNumber": "",
+              "postalCode": "60312",
+              "streetAddress": ""
+            },
+            "locationName": "Frankfurt Airport",
+            "locationType": "AIRPORT"
+          },
+          "actualDateTime": "2023-06-25T10:45:00.000Z",
+          "creationDateTime": "2023-06-25T10:45:00.010Z"
+        }
+      },
+      {
+        "action": "create_event",
+        "tenant": "geodis",
+        "type": "Service",
+        "loId": "TRK2000001",
+        "params": {
+          "id": "TRK2000001_2(locationArrival)"
+        },
+        "body": {
+          "eventType": "BUSINESS",
+          "code": "LOCATION_ARRIVAL",
+          "domain": "SCHEDULE",
+          "description": "Arriving at FRA Airport",
+          "location": {
+            "address": {
+              "addressCountry": {
+                "countryCode": "DE",
+                "countryName": "Germany"
+              },
+              "addressLocality": "Frankfurt",
+              "addressRegion": "",
+              "postOfficeBoxNumber": "",
+              "postalCode": "60312",
+              "streetAddress": ""
+            },
+            "locationName": "Frankfurt Airport",
+            "locationType": "AIRPORT"
+          },
+          "actualDateTime": "2023-06-25T10:45:00.000Z",
+          "creationDateTime": "2023-06-25T10:45:00.010Z"
+        }
+      },
+      {
+        "action": "create_event",
+        "tenant": "geodis",
+        "type": "Service",
+        "loId": "TRK2000001",
+        "params": {
+          "id": "TRK2000001_3(locationExit)"
+        },
+        "body": {
+          "eventType": "BUSINESS",
+          "code": "LOCATION_EXIT",
+          "domain": "SCHEDULE",
+          "description": "Exiting FRA Airport",
+          "location": {
+            "address": {
+              "addressCountry": {
+                "countryCode": "DE",
+                "countryName": "Germany"
+              },
+              "addressLocality": "Frankfurt",
+              "addressRegion": "",
+              "postOfficeBoxNumber": "",
+              "postalCode": "60312",
+              "streetAddress": ""
+            },
+            "locationName": "Frankfurt Airport",
+            "locationType": "AIRPORT"
+          },
+          "actualDateTime": "2023-06-25T11:00:00.000Z",
+          "creationDateTime": "2023-06-25T11:00:00.010Z"
+        }
+      },
+      {
+        "action": "create_event",
+        "tenant": "geodis",
+        "type": "Service",
+        "loId": "TRK2000001",
+        "params": {
+          "id": "TRK2000001_4(locationArrival)"
+        },
+        "body": {
+          "eventType": "BUSINESS",
+          "code": "LOCATION_ARRIVAL",
+          "domain": "SCHEDULE",
+          "description": "Arriving at buyer location",
+          "location": {
+            "address": {
+              "addressCountry": {
+                "countryCode": "DE",
+                "countryName": "Germany"
+              },
+              "addressLocality": "Mayence",
+              "addressRegion": "",
+              "postOfficeBoxNumber": "",
+              "postalCode": "55124",
+              "streetAddress": ""
+            },
+            "locationName": "BUYER LOCATION",
+            "locationType": "WAREHOUSE"
+          },
+          "actualDateTime": "2023-06-25T11:45:00.000Z",
+          "creationDateTime": "2023-06-25T11:45:00.010Z"
+        }
+      },
+      {
+        "action": "create_event",
+        "tenant": "geodis",
+        "type": "Service",
+        "loId": "TRK2000001",
+        "params": {
+          "id": "TRK2000001_5(locationExit)"
+        },
+        "body": {
+          "eventType": "BUSINESS",
+          "code": "LOCATION_EXIT",
+          "domain": "SCHEDULE",
+          "description": "Exiting buer location",
+          "location": {
+            "address": {
+              "addressCountry": {
+                "countryCode": "DE",
+                "countryName": "Germany"
+              },
+              "addressLocality": "Mayence",
+              "addressRegion": "",
+              "postOfficeBoxNumber": "",
+              "postalCode": "55124",
+              "streetAddress": ""
+            },
+            "locationName": "BUYER LOCATION",
+            "locationType": "WAREHOUSE"
+          },
+          "actualDateTime": "2023-06-25T12:00:00.000Z",
+          "creationDateTime": "2023-06-25T12:00:00.010Z"
+        }
+      },
+      {
+        "action": "create_event",
+        "tenant": "geodis",
+        "type": "Service",
+        "loId": "TRK2000001",
+        "params": {
+          "id": "TRK2000001_6(end)"
+        },
+        "body": {
+          "eventType": "BUSINESS",
+          "code": "SERVICE_FINISHED",
+          "domain": "SCHEDULE",
+          "description": "Service finished",
+          "location": {
+            "address": {
+              "addressCountry": {
+                "countryCode": "DE",
+                "countryName": "Germany"
+              },
+              "addressLocality": "Mayence",
+              "addressRegion": "",
+              "postOfficeBoxNumber": "",
+              "postalCode": "55124",
+              "streetAddress": ""
+            },
+            "locationName": "BUYER LOCATION",
+            "locationType": "WAREHOUSE"
+          },
+          "actualDateTime": "2023-06-25T12:00:00.000Z",
+          "creationDateTime": "2023-06-25T12:00:00.010Z"
+        }
+      },
+      {
+        "action": "update_lo",
+        "tenant": "geodis",
+        "type": "Activity",
+        "loId": "FF000001.4",
+        "memberIdentifier": "{geodis}/members/geodis",
+        "body": {
+          "executionPlan": "{geodis}/tenants/geodis/execution-plans/FF000001.4",
+          "sharedExecutionPlan": "",
+          "serviceRequests": [],
+          "estimatedCostOperations": [],
+          "relatedService": "{geodis}/tenants/geodis/services/FF000001",
+          "delegatedService": "",
+          "activityName": "Post carriage",
+          "sequenceNumber": 4,
+          "executionStatus": "FINISHED",
+          "activityType": "TRANSPORT",
+          "activitySubtype": "FTL-LTL",
+          "processReference": "",
+          "contacts": [
+            {
+              "role": "DISPATCH",
+              "phone": "+49.01.02.03.04.06",
+              "email": ""
+            }
+          ]
+        }
+      },
+      {
+        "action": "update_lo",
+        "tenant": "geodis",
+        "type": "ExecutionPlan",
+        "loId": "FF000001.4",
+        "memberIdentifier": "{geodis}/members/geodis",
+        "body": {
+          "milestones": [
+            {
+              "location": {
+                "address": {
+                  "addressCountry": {
+                    "countryCode": "DE",
+                    "countryName": "Germany"
+                  },
+                  "addressLocality": "Frankfurt",
+                  "addressRegion": "",
+                  "postOfficeBoxNumber": "",
+                  "postalCode": "60312",
+                  "streetAddress": ""
+                },
+                "locationName": "Frankfurt Airport",
+                "locationType": "AIRPORT"
+              },
+              "startSchedule": {
+                "earliestRequestedDateTime": "2023-06-25T12:00:00.000Z",
+                "latestRequestedDateTime": "2023-06-25T12:00:00.000Z",
+                "earliestPlannedDateTime": "2023-06-25T12:00:00.000Z",
+                "latestPlannedDateTime": "2023-06-25T12:00:00.000Z",
+                "actualDateTime": "2023-06-25T10:50:00.000Z"
+              },
+              "endSchedule": {
+                "earliestRequestedDateTime": "2023-06-25T12:30:00.000Z",
+                "latestRequestedDateTime": "2023-06-25T12:30:00.000Z",
+                "earliestPlannedDateTime": "2023-06-25T12:30:00.000Z",
+                "latestPlannedDateTime": "2023-06-25T12:30:00.000Z",
+                "actualDateTime": "2023-06-25T11:00:00.000Z"
+              },
+              "requestedMovements": [
+                {
+                  "containedObject": "",
+                  "container": "{geodis}/tenants/geodis/pieces/p123456",
+                  "movementType": "IN"
+                },
+                {
+                  "containedObject": "",
+                  "container": "{geodis}/tenants/geodis/pieces/p123457",
+                  "movementType": "IN"
+                },
+                {
+                  "containedObject": "",
+                  "container": "{geodis}/tenants/geodis/pieces/p123458",
+                  "movementType": "IN"
+                }
+              ],
+              "plannedMovements": [
+                {
+                  "containedObject": "",
+                  "container": "{geodis}/tenants/geodis/pieces/p123456",
+                  "movementType": "IN"
+                },
+                {
+                  "containedObject": "",
+                  "container": "{geodis}/tenants/geodis/pieces/p123457",
+                  "movementType": "IN"
+                },
+                {
+                  "containedObject": "",
+                  "container": "{geodis}/tenants/geodis/pieces/p123458",
+                  "movementType": "IN"
+                }
+              ],
+              "actualMovements": [
+                {
+                  "containedObject": "",
+                  "container": "{geodis}/tenants/geodis/pieces/p123456",
+                  "movementType": "IN"
+                },
+                {
+                  "containedObject": "",
+                  "container": "{geodis}/tenants/geodis/pieces/p123457",
+                  "movementType": "IN"
+                },
+                {
+                  "containedObject": "",
+                  "container": "{geodis}/tenants/geodis/pieces/p123458",
+                  "movementType": "IN"
+                }
+              ],
+              "isRequested": true
+            },
+            {
+              "location": {
+                "address": {
+                  "addressCountry": {
+                    "countryCode": "DE",
+                    "countryName": "Germany"
+                  },
+                  "addressLocality": "Mayence",
+                  "addressRegion": "",
+                  "postOfficeBoxNumber": "",
+                  "postalCode": "55124",
+                  "streetAddress": ""
+                },
+                "locationName": "BUYER LOCATION",
+                "locationType": "WAREHOUSE"
+              },
+              "startSchedule": {
+                "earliestRequestedDateTime": "2023-06-25T13:00:00.000Z",
+                "latestRequestedDateTime": "2023-06-25T13:00:00.000Z",
+                "earliestPlannedDateTime": "2023-06-25T13:00:00.000Z",
+                "latestPlannedDateTime": "2023-06-25T13:00:00.000Z",
+                "actualDateTime": "2023-06-25T11:45:00.000Z"
+              },
+              "endSchedule": {
+                "earliestRequestedDateTime": "2023-06-25T13:30:00.000Z",
+                "latestRequestedDateTime": "2023-06-25T13:30:00.000Z",
+                "earliestPlannedDateTime": "2023-06-25T13:30:00.000Z",
+                "latestPlannedDateTime": "2023-06-25T13:30:00.000Z",
+                "actualDateTime": "2023-06-25T12:00:00.000Z"
+              },
+              "requestedMovements": [
+                {
+                  "containedObject": "",
+                  "container": "{geodis}/tenants/geodis/pieces/p123456",
+                  "movementType": "OUT"
+                },
+                {
+                  "containedObject": "",
+                  "container": "{geodis}/tenants/geodis/pieces/p123457",
+                  "movementType": "OUT"
+                },
+                {
+                  "containedObject": "",
+                  "container": "{geodis}/tenants/geodis/pieces/p123458",
+                  "movementType": "OUT"
+                }
+              ],
+              "plannedMovements": [
+                {
+                  "containedObject": "",
+                  "container": "{geodis}/tenants/geodis/pieces/p123456",
+                  "movementType": "OUT"
+                },
+                {
+                  "containedObject": "",
+                  "container": "{geodis}/tenants/geodis/pieces/p123457",
+                  "movementType": "OUT"
+                },
+                {
+                  "containedObject": "",
+                  "container": "{geodis}/tenants/geodis/pieces/p123458",
+                  "movementType": "OUT"
+                }
+              ],
+              "actualMovements": [
+                {
+                  "containedObject": "",
+                  "container": "{geodis}/tenants/geodis/pieces/p123456",
+                  "movementType": "OUT"
+                },
+                {
+                  "containedObject": "",
+                  "container": "{geodis}/tenants/geodis/pieces/p123457",
+                  "movementType": "OUT"
+                },
+                {
+                  "containedObject": "",
+                  "container": "{geodis}/tenants/geodis/pieces/p123458",
+                  "movementType": "OUT"
+                }
+              ],
+              "isRequested": true
+            }
+          ],
+          "executionPlanStatus": "FINISHED"
+        }
+      },
+      {
+        "action": "update_lo",
+        "tenant": "geodis",
+        "type": "Service",
+        "loId": "CCLR000001",
+        "memberIdentifier": "{geodis}/members/geodis",
+        "body": {
+          "activities": [],
+          "parentActivities": ["{geodis}/tenants/geodis/activities/FF000001.3"],
+          "provider": {
+            "partyName": "CUSTOM BROCKER 1"
+          },
+          "requestor": {
+            "partyName": "LA FRENCH TEAM"
+          },
+          "sharedExecutionPlan": "{geodis}/tenants/geodis/execution-plans/FF000001.3",
+          "saleOperations": [],
+          "sla": {
+            "requestedSLA": "",
+            "plannedSLA": "",
+            "actualSLA": ""
+          },
+          "invoiceStatus": "NOT_INVOICED",
+          "incoterm": "",
+          "isDangerous": false,
+          "serviceAgreementReference": "1252332.125",
+          "serviceNature": "LOGISTICS",
+          "serviceStatus": "ACCEPTED",
+          "serviceType": "CUSTOMS_CLEARANCE",
+          "serviceSubtype": "CUSTOMS-IMPORT",
+          "totalOperationAmount": {
+            "value": "",
+            "unit": ""
+          },
+          "executionStatus": "FINISHED",
+          "serviceName": "Customs import Germany",
+          "serviceDescription": "Customs import Gernmany",
+          "contacts": [
+            {
+              "role": "CUSTOMER_DISPATCH",
+              "phone": "+4904454545",
+              "email": ""
+            },
+            {
+              "role": "PROVIDER_DISPATCH",
+              "phone": "+4921230405",
+              "email": ""
+            }
+          ],
+          "externalReferences": [
+            {
+              "description": "service n° A-12548793",
+              "reference": "A-12548793",
+              "externalReferenceType": "PROVIDER_ID"
+            },
+            {
+              "description": "REQUESTOR_ID ABCDEFG.3",
+              "reference": "ABCDEFG.3",
+              "externalReferenceType": "REQUESTOR_ID"
+            }
+          ]
+        }
+      },
+      {
+        "action": "update_lo",
+        "tenant": "geodis",
+        "type": "Service",
+        "loId": "FF000001",
+        "memberIdentifier": "{geodis}/members/geodis",
+        "body": {
+          "activities": [
+            "{geodis}/tenants/geodis/activities/FF000001.1",
+            "{geodis}/tenants/geodis/activities/FF000001.2",
+            "{geodis}/tenants/geodis/activities/FF000001.3",
+            "{geodis}/tenants/geodis/activities/FF000001.4"
+          ],
+          "parentActivities": [
+            "{seller}/tenants/geodis/activities/CUS.TAV.BEV.20230320.1.2"
+          ],
+          "provider": {
+            "partyName": "LA FRENCH COMPANY"
+          },
+          "requestor": {
+            "partyName": "PRODUCT SELLER"
+          },
+          "sharedExecutionPlan": "{geodis}/tenants/geodis/execution-plans/CUST00001",
+          "saleOperations": [],
+          "sla": {
+            "requestedSLA": "",
+            "plannedSLA": "",
+            "actualSLA": ""
+          },
+          "invoiceStatus": "NOT_INVOICED",
+          "incoterm": "",
+          "isDangerous": false,
+          "serviceAgreementReference": "125478.125",
+          "serviceNature": "LOGISTICS",
+          "serviceStatus": "ACCEPTED",
+          "serviceType": "TRANSPORT",
+          "serviceSubtype": "DELIVERY",
+          "totalOperationAmount": {
+            "value": "",
+            "unit": ""
+          },
+          "executionStatus": "FINISHED",
+          "serviceName": "International D2D Delivery",
+          "serviceDescription": "International D2D Delivery",
+          "contacts": [
+            {
+              "role": "CUSTOMER_DISPATCH",
+              "phone": "+33604454545",
+              "email": ""
+            },
+            {
+              "role": "PROVIDER_DISPATCH",
+              "phone": "+321230405",
+              "email": ""
+            }
+          ],
+          "externalReferences": [
+            {
+              "description": "service n° 12548793314",
+              "reference": "12548793314",
+              "externalReferenceType": "PROVIDER_ID"
+            },
+            {
+              "description": "REQUESTOR_ID ABCDEFG.1",
+              "reference": "ABCDEFG.1",
+              "externalReferenceType": "REQUESTOR_ID"
+            }
+          ],
+          "specialInstructions": [
+            {
+              "instructionCode": "45668554.1.12",
+              "description": "Care protocol 45668554.1.12"
+            }
+          ]
+        }
+      },
+      {
+        "action": "update_lo",
+        "tenant": "geodis",
+        "type": "Service",
+        "loId": "TRK2000001",
+        "memberIdentifier": "{geodis}/members/geodis",
+        "body": {
+          "activities": [],
+          "parentActivities": ["{geodis}/tenants/geodis/activities/FF000001.4"],
+          "provider": {
+            "partyName": "TRUCKER 2"
+          },
+          "requestor": {
+            "partyName": "LA FRENCH TEAM"
+          },
+          "sharedExecutionPlan": "{geodis}/tenants/geodis/execution-plans/FF000001.4",
+          "saleOperations": [],
+          "sla": {
+            "requestedSLA": "",
+            "plannedSLA": "",
+            "actualSLA": ""
+          },
+          "invoiceStatus": "NOT_INVOICED",
+          "incoterm": "",
+          "isDangerous": false,
+          "serviceAgreementReference": "1252332.125",
+          "serviceNature": "LOGISTICS",
+          "serviceStatus": "ACCEPTED",
+          "serviceType": "TRANSPORT",
+          "serviceSubtype": "FTL-LTL",
+          "totalOperationAmount": {
+            "value": "",
+            "unit": ""
+          },
+          "executionStatus": "FINISHED",
+          "serviceName": "Last mile transport Frankfurt",
+          "serviceDescription": "Last mile transport Frankfurt",
+          "contacts": [
+            {
+              "role": "CUSTOMER_DISPATCH",
+              "phone": "+4904454545",
+              "email": ""
+            },
+            {
+              "role": "PROVIDER_DISPATCH",
+              "phone": "+4921230405",
+              "email": ""
+            }
+          ],
+          "externalReferences": [
+            {
+              "description": "service n° A.12548793",
+              "reference": "A.12548793",
+              "externalReferenceType": "PROVIDER_ID"
+            },
+            {
+              "description": "REQUESTOR_ID ABCDEFG.4",
+              "reference": "ABCDEFG.4",
+              "externalReferenceType": "REQUESTOR_ID"
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

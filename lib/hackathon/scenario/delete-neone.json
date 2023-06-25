@@ -16,11 +16,11 @@
       },
       {
         "action": "delete_lo",
-        "loId": "action-build-up-requested"
+        "loId": "actionComposingLUFT000001.1.1"
       },
       {
         "action": "delete_lo",
-        "loId": "action-onloading-1-1"
+        "loId": "actionLoadingOnLUFT000001.1.1"
       },
       {
         "action": "delete_lo",
@@ -37,6 +37,26 @@
       {
         "action": "delete_lo",
         "loId": "waybill_LUFT000001"
+      },
+      {
+        "action": "delete_lo",
+        "loId": "actionComposingLUFT000001.2.2"
+      },
+      {
+        "action": "delete_lo",
+        "loId": "actionLoadingOffLUFT000001.2.1"
+      },
+      {
+        "action": "delete_lo",
+        "loId": "actionLoadingOnLUFT000001.3.1"
+      },
+      {
+        "action": "delete_lo",
+        "loId": "loading_LUFT000001.3"
+      },
+      {
+        "action": "delete_lo",
+        "loId": "transportMovement_LUFT000001.2"
       },
       {
         "action": "delete_event",
@@ -71,6 +91,27 @@
         "loId": "waybill_LUFT000001",
         "params": {
           "id": "waybill_LUFT000001_ARR"
+        }
+      },
+      {
+        "action": "delete_event",
+        "loId": "waybill_LUFT000001",
+        "params": {
+          "id": "waybill_LUFT000001_FIW"
+        }
+      },
+      {
+        "action": "delete_event",
+        "loId": "waybill_LUFT000001",
+        "params": {
+          "id": "waybill_LUFT000001_RCS"
+        }
+      },
+      {
+        "action": "delete_event",
+        "loId": "waybill_LUFT000001",
+        "params": {
+          "id": "waybill_LUFT000001_NFD"
         }
       }
     ]
