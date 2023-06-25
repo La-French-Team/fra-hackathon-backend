@@ -1,43 +1,78 @@
 [
-    {
-      "parallel": true,
-      "requests": [
-        {
-          "action": "delete_lo",
-          "loId": "piece_p123456"
-        },
-        {
-          "action": "delete_lo",
-          "loId": "piece_p123457"
-        },
-        {
-          "action": "delete_lo",
-          "loId": "piece_p123458"
-        },
-        {
-          "action": "delete_lo",
-          "loId": "action-build-up-requested"
-        },
-        {
-          "action": "delete_lo",
-          "loId": "action-onloading-1-1"
-        },
-        {
-          "action": "delete_lo",
-          "loId": "booking_LUFT000001"
-        },
-        {
-          "action": "delete_lo",
-          "loId": "shipment_FF000001"
-        },
-        {
-          "action": "delete_lo",
-          "loId": "transportMovement_LUFT000001.1"
-        },
-        {
-          "action": "delete_lo",
-          "loId": "waybill_LUFT000001"
+  {
+    "parallel": true,
+    "requests": [
+      {
+        "action": "delete_lo",
+        "loId": "piece_p123456"
+      },
+      {
+        "action": "delete_lo",
+        "loId": "piece_p123457"
+      },
+      {
+        "action": "delete_lo",
+        "loId": "piece_p123458"
+      },
+      {
+        "action": "delete_lo",
+        "loId": "action-build-up-requested"
+      },
+      {
+        "action": "delete_lo",
+        "loId": "action-onloading-1-1"
+      },
+      {
+        "action": "delete_lo",
+        "loId": "booking_LUFT000001"
+      },
+      {
+        "action": "delete_lo",
+        "loId": "shipment_FF000001"
+      },
+      {
+        "action": "delete_lo",
+        "loId": "transportMovement_LUFT000001.1"
+      },
+      {
+        "action": "delete_lo",
+        "loId": "waybill_LUFT000001"
+      },
+      {
+        "action": "delete_event",
+        "loId": "waybill_LUFT000001",
+        "params": {
+          "id": "waybill_LUFT000001_FOH"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "action": "delete_event",
+        "loId": "waybill_LUFT000001",
+        "params": {
+          "id": "waybill_LUFT000001_RCS"
+        }
+      },
+      {
+        "action": "delete_event",
+        "loId": "waybill_LUFT000001",
+        "params": {
+          "id": "waybill_LUFT000001_FOW"
+        }
+      },
+      {
+        "action": "delete_event",
+        "loId": "waybill_LUFT000001",
+        "params": {
+          "id": "waybill_LUFT000001_DEP"
+        }
+      },
+      {
+        "action": "delete_event",
+        "loId": "waybill_LUFT000001",
+        "params": {
+          "id": "waybill_LUFT000001_ARR"
+        }
+      }
+    ]
+  }
+]

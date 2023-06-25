@@ -1,0 +1,147 @@
+[
+  {
+    "parallel": true,
+    "requests": [
+      {
+        "action": "create_event",
+        "loId": "waybill_LUFT000001",
+        "params": {
+          "id": "waybill_LUFT000001_FOH"
+        },
+        "body": {
+          "@type": "https://onerecord.iata.org/Event",
+          "https://onerecord.iata.org/ns/cargo#dateTime": "2023-06-23T11:25:00.000Z",
+          "https://onerecord.iata.org/ns/cargo#creationDate": "2023-06-23T11:25:00.100Z",
+          "https://onerecord.iata.org/ns/cargo#eventDate": "2023-06-23T11:25:00.000Z",
+          "https://onerecord.iata.org/ns/cargo#eventCode": "FOH",
+          "https://onerecord.iata.org/ns/cargo#eventName": "Freight on Hand",
+          "https://onerecord.iata.org/ns/cargo#eventTypeIndicator": "Actual",
+          "https://onerecord.iata.org/ns/cargo#linkedObject": {
+            "@type": "https://onerecord.iata.org/booking",
+            "@id": "https://neone.onerecord.fr/logistics-objects/waybill_LUFT000001"
+          },
+          "https://onerecord.iata.org/ns/cargo#performedBy": {
+            "@type": "https://onerecord.iata.org/Company",
+            "@id": "https://neone.onerecord.fr/lufthansa-cargo"
+          },
+          "https://onerecord.iata.org/ns/cargo#performedByPerson": {
+            "@type": "https://onerecord.iata.org/Person",
+            "@id": "https://neone.onerecord.fr/lufthansa-cargo"
+          }
+        }
+      },
+      {
+        "action": "create_event",
+        "loId": "waybill_LUFT000001",
+        "params": {
+          "id": "waybill_LUFT000001_RCS"
+        },
+        "body": {
+          "@type": "https://onerecord.iata.org/Event",
+          "https://onerecord.iata.org/ns/cargo#dateTime": "2023-06-24T08:00:00.000Z",
+          "https://onerecord.iata.org/ns/cargo#creationDate": "2023-06-24T08:00:00.100Z",
+          "https://onerecord.iata.org/ns/cargo#eventDate": "2023-06-24T08:00:00.000Z",
+          "https://onerecord.iata.org/ns/cargo#eventCode": "RCS",
+          "https://onerecord.iata.org/ns/cargo#eventName": "Ready for carriage",
+          "https://onerecord.iata.org/ns/cargo#eventTypeIndicator": "Actual",
+          "https://onerecord.iata.org/ns/cargo#linkedObject": {
+            "@type": "https://onerecord.iata.org/waybill",
+            "@id": "https://neone.onerecord.fr/logistics-objects/waybill_LUFT000001"
+          },
+          "https://onerecord.iata.org/ns/cargo#performedBy": {
+            "@type": "https://onerecord.iata.org/Company",
+            "@id": "https://neone.onerecord.fr/lufthansa-cargo"
+          },
+          "https://onerecord.iata.org/ns/cargo#performedByPerson": {
+            "@type": "https://onerecord.iata.org/Person",
+            "@id": "https://neone.onerecord.fr/lufthansa-cargo"
+          }
+        }
+      },
+      {
+        "action": "create_event",
+        "loId": "waybill_LUFT000001",
+        "params": {
+          "id": "waybill_LUFT000001_FOW"
+        },
+        "body": {
+          "@type": "https://onerecord.iata.org/Event",
+          "https://onerecord.iata.org/ns/cargo#dateTime": "2023-06-24T09:30:00.000Z",
+          "https://onerecord.iata.org/ns/cargo#creationDate": "2023-06-24T09:30:00.100Z",
+          "https://onerecord.iata.org/ns/cargo#eventDate": "2023-06-24T09:30:00.000Z",
+          "https://onerecord.iata.org/ns/cargo#eventCode": "FOW",
+          "https://onerecord.iata.org/ns/cargo#eventName": "Freight out warehouse",
+          "https://onerecord.iata.org/ns/cargo#eventTypeIndicator": "Actual",
+          "https://onerecord.iata.org/ns/cargo#linkedObject": {
+            "@type": "https://onerecord.iata.org/waybill",
+            "@id": "https://neone.onerecord.fr/logistics-objects/waybill_LUFT000001"
+          },
+          "https://onerecord.iata.org/ns/cargo#performedBy": {
+            "@type": "https://onerecord.iata.org/Company",
+            "@id": "https://neone.onerecord.fr/lufthansa-cargo"
+          },
+          "https://onerecord.iata.org/ns/cargo#performedByPerson": {
+            "@type": "https://onerecord.iata.org/Person",
+            "@id": "https://neone.onerecord.fr/lufthansa-cargo"
+          }
+        }
+      },
+      {
+        "action": "create_event",
+        "loId": "waybill_LUFT000001",
+        "params": {
+          "id": "waybill_LUFT000001_DEP"
+        },
+        "body": {
+          "@type": "https://onerecord.iata.org/Event",
+          "https://onerecord.iata.org/ns/cargo#dateTime": "2023-06-24T10:30:00.000Z",
+          "https://onerecord.iata.org/ns/cargo#creationDate": "2023-06-24T10:30:00.100Z",
+          "https://onerecord.iata.org/ns/cargo#eventDate": "2023-06-24T10:30:00.000Z",
+          "https://onerecord.iata.org/ns/cargo#eventCode": "DEP",
+          "https://onerecord.iata.org/ns/cargo#eventName": "Departed",
+          "https://onerecord.iata.org/ns/cargo#eventTypeIndicator": "Actual",
+          "https://onerecord.iata.org/ns/cargo#linkedObject": {
+            "@type": "https://onerecord.iata.org/waybill",
+            "@id": "https://neone.onerecord.fr/logistics-objects/waybill_LUFT000001"
+          },
+          "https://onerecord.iata.org/ns/cargo#performedBy": {
+            "@type": "https://onerecord.iata.org/Company",
+            "@id": "https://neone.onerecord.fr/lufthansa-cargo"
+          },
+          "https://onerecord.iata.org/ns/cargo#performedByPerson": {
+            "@type": "https://onerecord.iata.org/Person",
+            "@id": "https://neone.onerecord.fr/lufthansa-cargo"
+          }
+        }
+      },
+      {
+        "action": "create_event",
+        "loId": "waybill_LUFT000001",
+        "params": {
+          "id": "waybill_LUFT000001_ARR"
+        },
+        "body": {
+          "@type": "https://onerecord.iata.org/Event",
+          "https://onerecord.iata.org/ns/cargo#dateTime": "2023-06-25T08:00:00.000Z",
+          "https://onerecord.iata.org/ns/cargo#creationDate": "2023-06-25T08:00:00.100Z",
+          "https://onerecord.iata.org/ns/cargo#eventDate": "2023-06-25T08:00:00.000Z",
+          "https://onerecord.iata.org/ns/cargo#eventCode": "ARR",
+          "https://onerecord.iata.org/ns/cargo#eventName": "Arrived",
+          "https://onerecord.iata.org/ns/cargo#eventTypeIndicator": "Actual",
+          "https://onerecord.iata.org/ns/cargo#linkedObject": {
+            "@type": "https://onerecord.iata.org/waybill",
+            "@id": "https://neone.onerecord.fr/logistics-objects/waybill_LUFT000001"
+          },
+          "https://onerecord.iata.org/ns/cargo#performedBy": {
+            "@type": "https://onerecord.iata.org/Company",
+            "@id": "https://neone.onerecord.fr/lufthansa-cargo"
+          },
+          "https://onerecord.iata.org/ns/cargo#performedByPerson": {
+            "@type": "https://onerecord.iata.org/Person",
+            "@id": "https://neone.onerecord.fr/lufthansa-cargo"
+          }
+        }
+      }
+    ]
+  }
+]
