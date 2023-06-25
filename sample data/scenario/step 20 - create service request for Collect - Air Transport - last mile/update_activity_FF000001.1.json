@@ -7,7 +7,7 @@
 	"delegatedService": "",
 	"activityName": "Pre carriage",
 	"sequenceNumber": 1,
-	"executionStatus": "NOT_PLANNED",
+	"executionStatus": "SCHEDULED",
 	"activityType": "TRANSPORT",
 	"activitySubtype": "FTL-LTL",
 	"processReference": "",

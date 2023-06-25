@@ -7,7 +7,7 @@
   "https://onerecord.iata.org/ns/cargo#eventName": "Freight on Hand",
   "https://onerecord.iata.org/ns/cargo#eventTypeIndicator": "Actual",
   "https://onerecord.iata.org/ns/cargo#linkedObject": {
-      "@type": "https://onerecord.iata.org/booking",
+      "@type": "https://onerecord.iata.org/waybill",
       "@id": "https://neone.onerecord.fr/logistics-objects/waybill_LUFT000001"
   },
   "https://onerecord.iata.org/ns/cargo#performedBy": {

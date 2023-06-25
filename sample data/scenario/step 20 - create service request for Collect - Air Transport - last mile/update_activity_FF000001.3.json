@@ -7,7 +7,7 @@
 	"delegatedService": "",
 	"activityName": "Post carriage",
 	"sequenceNumber": 3,
-	"executionStatus": "NOT_PLANNED",
+	"executionStatus": "SCHEDULED",
 	"activityType": "CUSTOMS_CLEARANCE",
 	"activitySubtype": "IMPORT_CUSTOMS",
 	"processReference": "",
