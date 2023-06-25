@@ -20,6 +20,15 @@
         "@id":"https://neone.onerecord.fr/logistics-objects/transportMovement_LUFT000001.2"
       },
       "https://onerecord.iata.org/ns/cargo#sequenceNumber":"2"
+    },
+    {
+      "@id":"neone:196b8f8b-6a27-46fc-b339-633e658df86d",
+      "@type":"https://onerecord.iata.org/ns/cargo#ActivitySequence",
+      "https://onerecord.iata.org/ns/cargo#activity":
+      {
+        "@id":"https://neone.onerecord.fr/logistics-objects/loadingActivity_LUFT000001.3"
+      },
+      "https://onerecord.iata.org/ns/cargo#sequenceNumber":"3"
     }
   ],
   "https://onerecord.iata.org/ns/cargo#issuedForWaybill":
