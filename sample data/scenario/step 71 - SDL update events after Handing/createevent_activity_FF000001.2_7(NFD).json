@@ -1,0 +1,23 @@
+{
+  "eventType": "BUSINESS",
+  "code": "NFD",
+  "domain":"AIR",
+  "description" : "Notified for Delivery",
+  "location": {
+    "address": {
+      "addressCountry": {
+        "countryCode": "DE",
+        "countryName": "Germany"
+      },
+      "addressLocality": "Frankfurt",
+      "addressRegion": "",
+      "postOfficeBoxNumber": "",
+      "postalCode": "60312",
+      "streetAddress": ""
+    },
+    "locationName": "Frankfurt Airport",
+    "locationType": "AIRPORT"
+  },
+  "actualDateTime": "2023-06-25T10:00:00.000Z",
+  "creationDateTime": "2023-06-25T10:00:00.010Z"
+}

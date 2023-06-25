@@ -1,0 +1,27 @@
+{
+	"executionPlan": "{geodis}/tenants/geodis/execution-plans/FF000001.2",
+	"sharedExecutionPlan": "{geodis}/tenants/geodis/execution-plans/FF000001.2",
+	"serviceRequests": [],
+	"estimatedCostOperations": [],
+	"relatedService": "{geodis}/tenants/geodis/services/FF000001",
+	"delegatedService": "",
+	"activityName": "Air Transport",
+	"sequenceNumber": 2,
+	"executionStatus": "FINISHED",
+	"activityType": "TRANSPORT",
+	"activitySubtype": "AIR_TRANSPORT",
+	"processReference": "",
+	"contacts": [
+		{
+			"role": "DISPATCH",
+			"phone": "+1.01.02.03.04.06",
+			"email": ""
+		}
+	],
+	"specialInstructions": [
+		{
+		  "instructionCode": "45668554.1.12",
+		  "description": "Care protocol 45668554.1.12"
+		}
+	]	
+}
