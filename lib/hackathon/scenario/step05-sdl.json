@@ -1,6 +1,6 @@
 [
   {
-    "parallel": false,
+    "parallel": true,
     "requests": [
       {
         "action": "create_event",
