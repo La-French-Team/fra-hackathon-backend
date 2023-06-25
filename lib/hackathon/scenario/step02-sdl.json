@@ -1,6 +1,6 @@
 [
   {
-    "parallel": true,
+    "parallel": false,
     "requests": [
       {
         "action": "create_lo",
@@ -30,9 +30,7 @@
             "actualSLA": ""
           },
           "sharedExecutionPlan": "{geodis}/tenants/geodis/execution-plans/FF000001.1",
-          "parentActivities": [
-            "{geodis}/tenants/geodis/activities/FF000001.1"
-          ],
+          "parentActivities": ["{geodis}/tenants/geodis/activities/FF000001.1"],
           "isDangerous": false,
           "productDescription": "vaccin",
           "serviceAgreementReference": "10012254/1",
@@ -88,9 +86,7 @@
             "actualSLA": ""
           },
           "sharedExecutionPlan": "{geodis}/tenants/geodis/execution-plans/FF000001.2",
-          "parentActivities": [
-            "{geodis}/tenants/geodis/activities/FF000001.2"
-          ],
+          "parentActivities": ["{geodis}/tenants/geodis/activities/FF000001.2"],
           "isDangerous": false,
           "productDescription": "vaccin",
           "serviceAgreementReference": "34455043/2",
@@ -152,9 +148,7 @@
             "actualSLA": ""
           },
           "sharedExecutionPlan": "{geodis}/tenants/geodis/execution-plans/FF000001.3",
-          "parentActivities": [
-            "{geodis}/tenants/geodis/activities/FF000001.3"
-          ],
+          "parentActivities": ["{geodis}/tenants/geodis/activities/FF000001.3"],
           "isDangerous": false,
           "productDescription": "vaccin",
           "serviceAgreementReference": "234454334/1",
@@ -210,9 +204,7 @@
             "actualSLA": ""
           },
           "sharedExecutionPlan": "{geodis}/tenants/geodis/execution-plans/FF000001.4",
-          "parentActivities": [
-            "{geodis}/tenants/geodis/activities/FF000001.4"
-          ],
+          "parentActivities": ["{geodis}/tenants/geodis/activities/FF000001.4"],
           "isDangerous": false,
           "productDescription": "vaccin",
           "serviceAgreementReference": "34556553/1",
@@ -249,9 +241,7 @@
         },
         "body": {
           "activities": [],
-          "parentActivities": [
-            "{geodis}/tenants/geodis/activities/FF000001.3"
-          ],
+          "parentActivities": ["{geodis}/tenants/geodis/activities/FF000001.3"],
           "provider": {
             "partyName": "CUSTOM BROCKER 1"
           },
@@ -315,9 +305,7 @@
         },
         "body": {
           "activities": [],
-          "parentActivities": [
-            "{geodis}/tenants/geodis/activities/FF000001.1"
-          ],
+          "parentActivities": ["{geodis}/tenants/geodis/activities/FF000001.1"],
           "provider": {
             "partyName": "TRUCKER 1"
           },
@@ -381,9 +369,7 @@
         },
         "body": {
           "activities": [],
-          "parentActivities": [
-            "{geodis}/tenants/geodis/activities/FF000001.4"
-          ],
+          "parentActivities": ["{geodis}/tenants/geodis/activities/FF000001.4"],
           "provider": {
             "partyName": "TRUCKER 2"
           },
@@ -453,7 +439,7 @@
           "delegatedService": "",
           "activityName": "Pre carriage",
           "sequenceNumber": 1,
-          "executionStatus": "NOT_PLANNED",
+          "executionStatus": "SCHEDULED",
           "activityType": "TRANSPORT",
           "activitySubtype": "FTL-LTL",
           "processReference": "",
@@ -515,7 +501,7 @@
           "delegatedService": "",
           "activityName": "Post carriage",
           "sequenceNumber": 3,
-          "executionStatus": "NOT_PLANNED",
+          "executionStatus": "SCHEDULED",
           "activityType": "CUSTOMS_CLEARANCE",
           "activitySubtype": "IMPORT_CUSTOMS",
           "processReference": "",
