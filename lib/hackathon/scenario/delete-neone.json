@@ -39,6 +39,26 @@
         "loId": "waybill_LUFT000001"
       },
       {
+        "action": "delete_lo",
+        "loId": "actionComposingLUFT000001.2.2"
+      },
+      {
+        "action": "delete_lo",
+        "loId": "actionLoadingOffLUFT000001.2.1"
+      },
+      {
+        "action": "delete_lo",
+        "loId": "actionLoadingOnLUFT000001.3.1"
+      },
+      {
+        "action": "delete_lo",
+        "loId": "loading_LUFT000001.3"
+      },
+      {
+        "action": "delete_lo",
+        "loId": "transportMovement_LUFT000001.2"
+      },
+      {
         "action": "delete_event",
         "loId": "waybill_LUFT000001",
         "params": {

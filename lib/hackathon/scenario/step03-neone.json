@@ -254,6 +254,168 @@
           "https://onerecord.iata.org/ns/cargo#waybillType": "Master",
           "https://onerecord.iata.org/ns/cargo#waybillnumber": "12345675"
         }
+      },
+      {
+        "@id": "https://neone.onerecord.fr/logistics-objects/actionComposingLUFT000001.2.2",
+        "@type": "https://onerecord.iata.org/ns/cargo#Composing",
+        "https://onerecord.iata.org/ns/cargo#actionEndTime": {
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "@value": "2023-06-25T10:15:00Z"
+        },
+        "https://onerecord.iata.org/ns/cargo#actionStartTime": {
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "@value": "2023-06-25T10:30:00Z"
+        },
+        "https://onerecord.iata.org/ns/cargo#actionTimeType": "Requested",
+        "https://onerecord.iata.org/ns/cargo#composedPieces": [
+          {
+            "@id": "https://sdl.onerecord.fr/tenants/geodis/pieces/p123456"
+          },
+          {
+            "@id": "https://sdl.onerecord.fr/tenants/geodis/pieces/p123457"
+          },
+          {
+            "@id": "https://sdl.onerecord.fr/tenants/geodis/pieces/p123458"
+          }
+        ],
+        "https://onerecord.iata.org/ns/cargo#compositionType": "BreakDown",
+        "https://onerecord.iata.org/ns/cargo#contactPerson": {
+          "@id": ""
+        },
+        "https://onerecord.iata.org/ns/cargo#performedAtLocation": {
+          "@id": "https://neone.onerecord.fr/logistics-objects/fra-dropoff-zone"
+        },
+        "https://onerecord.iata.org/ns/cargo#servedActivity": {
+          "@id": "https://neone.onerecord.fr/logistics-objects/transportMovementLUFT000001.2"
+        }
+      },
+      {
+        "@id": "https://neone.onerecord.fr/logistics-objects/actionLoadingOffLUFT000001.2.1",
+        "@type": "https://onerecord.iata.org/ns/cargo#Loading",
+        "https://onerecord.iata.org/ns/cargo#actionEndTime": {
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "@value": "2023-06-24T10:30:00Z"
+        },
+        "https://onerecord.iata.org/ns/cargo#actionTimeType": "Planned",
+        "https://onerecord.iata.org/ns/cargo#compositionType": "Offloading",
+        "https://onerecord.iata.org/ns/cargo#contactPerson": {
+          "@id": ""
+        },
+        "https://onerecord.iata.org/ns/cargo#loadingUnit": {
+          "@id": "https://neone.onerecord.fr/logistics-objects/uld12345"
+        },
+        "https://onerecord.iata.org/ns/cargo#performedAtLocation": {
+          "@id": "https://neone.onerecord.fr/logistics-objects/fra-pickup-zone"
+        },
+        "https://onerecord.iata.org/ns/cargo#servedActivity": {
+          "@id": "https://neone.onerecord.fr/logistics-objects/transportMovement_LUFT000001.2"
+        }
+      },
+      {
+        "@id": "https://neone.onerecord.fr/logistics-objects/actionLoadingOnLUFT000001.3.1",
+        "@type": "https://onerecord.iata.org/ns/cargo#Loading",
+        "https://onerecord.iata.org/ns/cargo#actionEndTime": {
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "@value": "2023-06-25T10:30:00Z"
+        },
+        "https://onerecord.iata.org/ns/cargo#actionTimeType": "Planned",
+        "https://onerecord.iata.org/ns/cargo#compositionType": "Onloading",
+        "https://onerecord.iata.org/ns/cargo#contactPerson": {
+          "@id": ""
+        },
+        "https://onerecord.iata.org/ns/cargo#loadedPieces": [
+          {
+            "@id": "https://sdl.onerecord.fr/tenants/geodis/pieces/p123456"
+          },
+          {
+            "@id": "https://sdl.onerecord.fr/tenants/geodis/pieces/p123457"
+          },
+          {
+            "@id": "https://sdl.onerecord.fr/tenants/geodis/pieces/p123458"
+          }
+        ],
+        "https://onerecord.iata.org/ns/cargo#servedActivity": {
+          "@id": "https://neone.onerecord.fr/logistics-objects/transportMovement_LUFT000001.3"
+        }
+      },
+      {
+        "@id": "https://neone.onerecord.fr/logistics-objects/loading_LUFT000001.3",
+        "@type": "https://onerecord.iata.org/ns/cargo#LoadingActivity",
+        "https://onerecord.iata.org/ns/cargo#actions": [
+          {
+            "@id": "https://neone.onerecord.fr/logistics-objects/actionLoadingOnLUFT000001.3.1"
+          }
+        ],
+        "https://onerecord.iata.org/ns/cargo#executionStatus": "pending"
+      },
+      {
+        "@id": "https://neone.onerecord.fr/logistics-objects/transportMovement_LUFT000001.2",
+        "@type": "https://onerecord.iata.org/ns/cargo#TransportMovement",
+        "https://onerecord.iata.org/ns/cargo#actions": [
+          {
+            "@id": "https://neone.onerecord.fr/logistics-objects/actionLoadingOffLUFT000001.2.1"
+          },
+          {
+            "@id": "https://neone.onerecord.fr/logistics-objects/actionComposingLUFT000001.2.2"
+          }
+        ],
+        "https://onerecord.iata.org/ns/cargo#arrivalLocation": {
+          "@id": "https://neone.onerecord.fr/logistics-objects/logistics-objects/fra-pickup-zone"
+        },
+        "https://onerecord.iata.org/ns/cargo#departureLocation": {
+          "@id": "https://neone.onerecord.fr/logistics-objects/logistics-objects/fra-dropoff-zone"
+        },
+        "https://onerecord.iata.org/ns/cargo#executionStatus": "pending",
+        "https://onerecord.iata.org/ns/cargo#modeQualifier": "On-Carriage",
+        "https://onerecord.iata.org/ns/cargo#movementTimes": [
+          {
+            "@id": "neone:0d73ad6e-cc5a-49b0-835c-c2dc5e4fecb0",
+            "@type": "https://onerecord.iata.org/ns/cargo#MovementTime",
+            "https://onerecord.iata.org/ns/cargo#direction": "Outbound",
+            "https://onerecord.iata.org/ns/cargo#movementTimeStamp": {
+              "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "@value": "2023-06-25T11:00:00Z"
+            },
+            "https://onerecord.iata.org/ns/cargo#movementTimeType": "Scheduled"
+          },
+          {
+            "@id": "neone:15e4ad5e-faec-445f-9e80-9bc81fbeef94",
+            "@type": "https://onerecord.iata.org/ns/cargo#MovementTime",
+            "https://onerecord.iata.org/ns/cargo#direction": "Inbound",
+            "https://onerecord.iata.org/ns/cargo#movementTimeStamp": {
+              "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "@value": "2023-06-25T10:00:00Z"
+            },
+            "https://onerecord.iata.org/ns/cargo#movementTimeType": "Scheduled"
+          },
+          {
+            "@id": "neone:6d36780b-d24e-4999-8efe-f9b7174f2ab6",
+            "@type": "https://onerecord.iata.org/ns/cargo#MovementTime",
+            "https://onerecord.iata.org/ns/cargo#direction": "Outbound",
+            "https://onerecord.iata.org/ns/cargo#movementTimeStamp": {
+              "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "@value": "2023-06-25T11:00:00Z"
+            },
+            "https://onerecord.iata.org/ns/cargo#movementTimeType": "Actual"
+          },
+          {
+            "@id": "neone:f867ffa6-d1d8-437f-8d4c-5f81a687b143",
+            "@type": "https://onerecord.iata.org/ns/cargo#MovementTime",
+            "https://onerecord.iata.org/ns/cargo#direction": "Inbound",
+            "https://onerecord.iata.org/ns/cargo#movementTimeStamp": {
+              "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "@value": "2023-06-25T10:00:00Z"
+            },
+            "https://onerecord.iata.org/ns/cargo#movementTimeType": "Actual"
+          }
+        ],
+        "https://onerecord.iata.org/ns/cargo#operatingTransportMeans": {
+          "@id": "https://lft.one-record.lhind.dev/logistics-objects/transport-means-gha1"
+        },
+        "https://onerecord.iata.org/ns/cargo#servedServices": {
+          "@id": "https://lft.one-record.lhind.dev/logistics-objects/booking_LUFT000001"
+        },
+        "https://onerecord.iata.org/ns/cargo#transportIdentifier": "GHA1232"
       }
     ]
   }
