@@ -33,6 +33,6 @@
   ],
   "https://onerecord.iata.org/ns/cargo#issuedForWaybill":
   {
-    "@id":"https://neone.onerecord.fr/logistics-objects/waybill_LUFT000001.123"
+    "@id":"https://neone.onerecord.fr/logistics-objects/waybill_LUFT000001"
   }
 }
