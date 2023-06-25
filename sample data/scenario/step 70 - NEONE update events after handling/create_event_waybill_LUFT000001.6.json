@@ -1,10 +1,10 @@
 {
   "@type": "https://onerecord.iata.org/Event",
-  "https://onerecord.iata.org/ns/cargo#dateTime": "2023-06-23T11:25:00.000Z",
-  "https://onerecord.iata.org/ns/cargo#creationDate": "2023-06-23T11:25:00.100Z",
-  "https://onerecord.iata.org/ns/cargo#eventDate": "2023-06-23T11:25:00.000Z",
-  "https://onerecord.iata.org/ns/cargo#eventCode": "FOH",
-  "https://onerecord.iata.org/ns/cargo#eventName": "Freight on Hand",
+  "https://onerecord.iata.org/ns/cargo#dateTime": "2023-06-25T08:30:00.000Z",
+  "https://onerecord.iata.org/ns/cargo#creationDate": "2023-06-25T08:30:00.100Z",
+  "https://onerecord.iata.org/ns/cargo#eventDate": "2023-06-25T08:30:00.000Z",
+  "https://onerecord.iata.org/ns/cargo#eventCode": "FIW",
+  "https://onerecord.iata.org/ns/cargo#eventName": "Freight in Warehouse",
   "https://onerecord.iata.org/ns/cargo#eventTypeIndicator": "Actual",
   "https://onerecord.iata.org/ns/cargo#linkedObject": {
       "@type": "https://onerecord.iata.org/waybill",

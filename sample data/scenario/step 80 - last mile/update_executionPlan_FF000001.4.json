@@ -1,0 +1,171 @@
+{
+  "milestones": [
+    {
+      "location": {
+        "address": {
+          "addressCountry": {
+            "countryCode": "DE",
+            "countryName": "Germany"
+          },
+          "addressLocality": "Frankfurt",
+          "addressRegion": "",
+          "postOfficeBoxNumber": "",
+          "postalCode": "60312",
+          "streetAddress": ""
+        },
+        "locationName": "Frankfurt Airport",
+        "locationType": "AIRPORT"
+      },
+      "startSchedule": {
+        "earliestRequestedDateTime": "2023-06-25T12:00:00.000Z",
+        "latestRequestedDateTime": "2023-06-25T12:00:00.000Z",
+        "earliestPlannedDateTime": "2023-06-25T12:00:00.000Z",
+        "latestPlannedDateTime": "2023-06-25T12:00:00.000Z",
+        "actualDateTime": "2023-06-25T10:50:00.000Z"
+      },
+      "endSchedule": {
+        "earliestRequestedDateTime": "2023-06-25T12:30:00.000Z",
+        "latestRequestedDateTime": "2023-06-25T12:30:00.000Z",
+        "earliestPlannedDateTime": "2023-06-25T12:30:00.000Z",
+        "latestPlannedDateTime": "2023-06-25T12:30:00.000Z",
+        "actualDateTime": "2023-06-25T11:00:00.000Z"
+      },
+      "requestedMovements": [
+        {
+          "containedObject": "",
+          "container": "{geodis}/tenants/geodis/pieces/p123456",
+          "movementType": "IN"
+        },
+        {
+          "containedObject": "",
+          "container": "{geodis}/tenants/geodis/pieces/p123457",
+          "movementType": "IN"
+        },
+        {
+          "containedObject": "",
+          "container": "{geodis}/tenants/geodis/pieces/p123458",
+          "movementType": "IN"
+        }
+      ],
+      "plannedMovements": [
+        {
+          "containedObject": "",
+          "container": "{geodis}/tenants/geodis/pieces/p123456",
+          "movementType": "IN"
+        },
+        {
+          "containedObject": "",
+          "container": "{geodis}/tenants/geodis/pieces/p123457",
+          "movementType": "IN"
+        },
+        {
+          "containedObject": "",
+          "container": "{geodis}/tenants/geodis/pieces/p123458",
+          "movementType": "IN"
+        }
+      ],
+      "actualMovements": [
+        {
+          "containedObject": "",
+          "container": "{geodis}/tenants/geodis/pieces/p123456",
+          "movementType": "IN"
+        },
+        {
+          "containedObject": "",
+          "container": "{geodis}/tenants/geodis/pieces/p123457",
+          "movementType": "IN"
+        },
+        {
+          "containedObject": "",
+          "container": "{geodis}/tenants/geodis/pieces/p123458",
+          "movementType": "IN"
+        }
+      ],
+      "isRequested": true
+    },
+    {
+      "location": {
+        "address": {
+          "addressCountry": {
+            "countryCode": "DE",
+            "countryName": "Germany"
+          },
+          "addressLocality": "Mayence",
+          "addressRegion": "",
+          "postOfficeBoxNumber": "",
+          "postalCode": "55124",
+          "streetAddress": ""
+        },
+        "locationName": "BUYER LOCATION",
+        "locationType": "WAREHOUSE"
+      },
+      "startSchedule": {
+        "earliestRequestedDateTime": "2023-06-25T13:00:00.000Z",
+        "latestRequestedDateTime": "2023-06-25T13:00:00.000Z",
+        "earliestPlanneddDateTime": "2023-06-25T13:00:00.000Z",
+        "latestPlannedDateTime": "2023-06-25T13:00:00.000Z",
+        "actualDateTime": "2023-06-25T11:45:00.000Z"
+      },
+      "endSchedule": {
+        "earliestRequestedDateTime": "2023-06-25T13:30:00.000Z",
+        "latestRequestedDateTime": "2023-06-25T13:30:00.000Z",
+        "earliestPlannedDateTime": "2023-06-25T13:30:00.000Z",
+        "latestPlannedDateTime": "2023-06-25T13:30:00.000Z",
+        "actualDateTime": "2023-06-25T12:00:00.000Z"
+      },
+      "requestedMovements": [
+        {
+          "containedObject": "",
+          "container": "{geodis}/tenants/geodis/pieces/p123456",
+          "movementType": "OUT"
+        },
+        {
+          "containedObject": "",
+          "container": "{geodis}/tenants/geodis/pieces/p123457",
+          "movementType": "OUT"
+        },
+        {
+          "containedObject": "",
+          "container": "{geodis}/tenants/geodis/pieces/p123458",
+          "movementType": "OUT"
+        }
+      ],
+      "plannedMovements": [
+        {
+          "containedObject": "",
+          "container": "{geodis}/tenants/geodis/pieces/p123456",
+          "movementType": "OUT"
+        },
+        {
+          "containedObject": "",
+          "container": "{geodis}/tenants/geodis/pieces/p123457",
+          "movementType": "OUT"
+        },
+        {
+          "containedObject": "",
+          "container": "{geodis}/tenants/geodis/pieces/p123458",
+          "movementType": "OUT"
+        }
+      ],
+      "actualMovements": [
+        {
+          "containedObject": "",
+          "container": "{geodis}/tenants/geodis/pieces/p123456",
+          "movementType": "OUT"
+        },
+        {
+          "containedObject": "",
+          "container": "{geodis}/tenants/geodis/pieces/p123457",
+          "movementType": "OUT"
+        },
+        {
+          "containedObject": "",
+          "container": "{geodis}/tenants/geodis/pieces/p123458",
+          "movementType": "OUT"
+        }
+      ],
+      "isRequested": true
+    }
+  ],
+  "executionPlanStatus": "FINISHED"
+}

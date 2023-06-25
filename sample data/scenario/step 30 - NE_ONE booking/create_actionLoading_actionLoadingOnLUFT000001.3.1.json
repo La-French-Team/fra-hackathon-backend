@@ -1,0 +1,27 @@
+{
+  "@id": "https://neone.onerecord.fr/logistics-objects/actionLoadingOnLUFT000001.3.1",
+  "@type": "https://onerecord.iata.org/ns/cargo#Loading",
+  "https://onerecord.iata.org/ns/cargo#actionEndTime": {
+    "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value": "2023-06-25T10:30:00Z"
+  },
+  "https://onerecord.iata.org/ns/cargo#actionTimeType": "Planned",
+  "https://onerecord.iata.org/ns/cargo#compositionType": "Onloading",
+  "https://onerecord.iata.org/ns/cargo#contactPerson": {
+    "@id": ""
+  },
+  "https://onerecord.iata.org/ns/cargo#loadedPieces": [
+    {
+      "@id": "https://sdl.onerecord.fr/tenants/geodis/pieces/p123456"
+    },
+    {
+      "@id": "https://sdl.onerecord.fr/tenants/geodis/pieces/p123457"
+    },
+    {
+      "@id": "https://sdl.onerecord.fr/tenants/geodis/pieces/p123458"
+    }
+  ],
+  "https://onerecord.iata.org/ns/cargo#servedActivity": {
+    "@id": "https://neone.onerecord.fr/logistics-objects/transportMovement_LUFT000001.3"
+  }
+}

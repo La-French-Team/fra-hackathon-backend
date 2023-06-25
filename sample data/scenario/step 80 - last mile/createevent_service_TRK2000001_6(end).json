@@ -1,0 +1,23 @@
+{
+  "eventType": "BUSINESS",
+  "code": "SERVICE_FINISHED",
+  "domain":"SCHEDULE",
+  "description" : "Service finished",
+  "location": {
+    "address": {
+      "addressCountry": {
+        "countryCode": "DE",
+        "countryName": "Germany"
+      },
+      "addressLocality": "Mayence",
+      "addressRegion": "",
+      "postOfficeBoxNumber": "",
+      "postalCode": "55124",
+      "streetAddress": ""
+    },
+    "locationName": "BUYER LOCATION",
+    "locationType": "WAREHOUSE"
+  },
+  "actualDateTime": "2023-06-25T12:00:00.000Z",
+  "creationDateTime": "2023-06-25T12:00:00.010Z"
+}

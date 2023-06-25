@@ -1,0 +1,23 @@
+{
+  "eventType": "BUSINESS",
+  "code": "FIW",
+  "domain":"AIR",
+  "description" : "Freight in Warehouse",
+  "location": {
+    "address": {
+      "addressCountry": {
+        "countryCode": "DE",
+        "countryName": "Germany"
+      },
+      "addressLocality": "Frankfurt",
+      "addressRegion": "",
+      "postOfficeBoxNumber": "",
+      "postalCode": "60312",
+      "streetAddress": ""
+    },
+    "locationName": "Frankfurt Airport",
+    "locationType": "AIRPORT"
+  },
+  "actualDateTime": "2023-06-25T08:30:00.000Z",
+  "creationDateTime": "2023-06-25T08:30:00.010Z"
+}

@@ -1,0 +1,59 @@
+{
+  "activities": [
+  ],
+  "parentActivities": [
+    "{geodis}/tenants/geodis/activities/FF000001.4"
+  ],
+  "provider": {
+    "partyName": "TRUCKER 2"
+  },
+  "requestor": {
+    "partyName": "LA FRENCH TEAM"
+  },
+  "sharedExecutionPlan": "{geodis}/tenants/geodis/execution-plans/FF000001.4",
+  "saleOperations": [],
+  "sla": {
+    "requestedSLA": "",
+    "plannedSLA": "",
+    "actualSLA": ""
+  },
+  "invoiceStatus": "NOT_INVOICED",
+  "incoterm": "",
+  "isDangerous": false,
+  "serviceAgreementReference": "1252332.125",
+  "serviceNature": "LOGISTICS",
+  "serviceStatus": "ACCEPTED",
+  "serviceType": "TRANSPORT",
+  "serviceSubtype": "FTL-LTL",
+  "totalOperationAmount": {
+    "value": "",
+    "unit": ""
+  },
+  "executionStatus": "FINISHED",
+  "serviceName": "Last mile transport Frankfurt",
+  "serviceDescription": "Last mile transport Frankfurt",
+  "contacts": [
+    {
+      "role": "CUSTOMER_DISPATCH",
+      "phone": "+4904454545",
+      "email": ""
+    },
+    {
+      "role": "PROVIDER_DISPATCH",
+      "phone": "+4921230405",
+      "email": ""
+    }
+  ],
+  "externalReferences": [
+    {
+      "description": "service n° A.12548793",
+      "reference": "A.12548793",
+      "externalReferenceType": "PROVIDER_ID"
+    },
+    {
+      "description": "REQUESTOR_ID ABCDEFG.4",
+      "reference": "ABCDEFG.4",
+      "externalReferenceType": "REQUESTOR_ID"
+    }
+  ]
+}

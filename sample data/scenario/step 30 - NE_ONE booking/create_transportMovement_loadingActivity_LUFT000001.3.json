@@ -1,0 +1,10 @@
+{
+  "@id": "https://neone.onerecord.fr/logistics-objects/loading_LUFT000001.3",
+  "@type": "https://onerecord.iata.org/ns/cargo#LoadingActivity",
+  "https://onerecord.iata.org/ns/cargo#actions": [
+    {
+      "@id": "https://neone.onerecord.fr/logistics-objects/actionLoadingOnLUFT000001.3.1"
+    }
+  ],
+  "https://onerecord.iata.org/ns/cargo#executionStatus": "pending"
+}

@@ -1,0 +1,59 @@
+{
+  "activities": [
+  ],
+  "parentActivities": [
+    "{geodis}/tenants/geodis/activities/FF000001.3"
+  ],
+  "provider": {
+    "partyName": "CUSTOM BROCKER 1"
+  },
+  "requestor": {
+    "partyName": "LA FRENCH TEAM"
+  },
+  "sharedExecutionPlan": "{geodis}/tenants/geodis/execution-plans/FF000001.3",
+  "saleOperations": [],
+  "sla": {
+    "requestedSLA": "",
+    "plannedSLA": "",
+    "actualSLA": ""
+  },
+  "invoiceStatus": "NOT_INVOICED",
+  "incoterm": "",
+  "isDangerous": false,
+  "serviceAgreementReference": "1252332.125",
+  "serviceNature": "LOGISTICS",
+  "serviceStatus": "ACCEPTED",
+  "serviceType": "CUSTOMS_CLEARANCE",
+  "serviceSubtype": "CUSTOMS-IMPORT",
+  "totalOperationAmount": {
+    "value": "",
+    "unit": ""
+  },
+  "executionStatus": "FINISHED",
+  "serviceName": "Customs import Germany",
+  "serviceDescription": "Customs import Gernmany",
+  "contacts": [
+    {
+      "role": "CUSTOMER_DISPATCH",
+      "phone": "+4904454545",
+      "email": ""
+    },
+    {
+      "role": "PROVIDER_DISPATCH",
+      "phone": "+4921230405",
+      "email": ""
+    }
+  ],
+  "externalReferences": [
+    {
+      "description": "service n° A-12548793",
+      "reference": "A-12548793",
+      "externalReferenceType": "PROVIDER_ID"
+    },
+    {
+      "description": "REQUESTOR_ID ABCDEFG.3",
+      "reference": "ABCDEFG.3",
+      "externalReferenceType": "REQUESTOR_ID"
+    }
+  ]
+}

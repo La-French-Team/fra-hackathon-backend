@@ -1,0 +1,69 @@
+{
+  "activities": [
+    "{geodis}/tenants/geodis/activities/FF000001.1",
+    "{geodis}/tenants/geodis/activities/FF000001.2",
+    "{geodis}/tenants/geodis/activities/FF000001.3",
+    "{geodis}/tenants/geodis/activities/FF000001.4"
+  ],
+  "parentActivities": [
+    "{seller}/tenants/geodis/activities/CUS.TAV.BEV.20230320.1.2"
+  ],
+  "provider": {
+    "partyName": "LA FRENCH COMPANY"
+  },
+  "requestor": {
+    "partyName": "PRODUCT SELLER"
+  },
+  "sharedExecutionPlan": "{geodis}/tenants/geodis/execution-plans/CUST00001",
+  "saleOperations": [],
+  "sla": {
+    "requestedSLA": "",
+    "plannedSLA": "",
+    "actualSLA": ""
+  },
+  "invoiceStatus": "NOT_INVOICED",
+  "incoterm": "",
+  "isDangerous": false,
+  "serviceAgreementReference": "125478.125",
+  "serviceNature": "LOGISTICS",
+  "serviceStatus": "ACCEPTED",
+  "serviceType": "TRANSPORT",
+  "serviceSubtype": "DELIVERY",
+  "totalOperationAmount": {
+    "value": "",
+    "unit": ""
+  },
+  "executionStatus": "STARTED",
+  "serviceName": "International D2D Delivery",
+  "serviceDescription": "International D2D Delivery",
+  "contacts": [
+    {
+      "role": "CUSTOMER_DISPATCH",
+      "phone": "+33604454545",
+      "email": ""
+    },
+    {
+      "role": "PROVIDER_DISPATCH",
+      "phone": "+321230405",
+      "email": ""
+    }
+  ],
+  "externalReferences": [
+    {
+      "description": "service n° 12548793314",
+      "reference": "12548793314",
+      "externalReferenceType": "PROVIDER_ID"
+    },
+    {
+      "description": "REQUESTOR_ID ABCDEFG.1",
+      "reference": "ABCDEFG.1",
+      "externalReferenceType": "REQUESTOR_ID"
+    }
+  ],
+  "specialInstructions": [
+    {
+      "instructionCode": "45668554.1.12",
+      "description": "Care protocol 45668554.1.12"
+    }
+  ]
+}

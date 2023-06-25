@@ -29,7 +29,7 @@
       {
         "action": "create_lo",
         "body": {
-          "@id": "https://neone.onerecord.fr/logistics-objects/action-build-up-requested",
+          "@id": "https://neone.onerecord.fr/logistics-objects/actionComposingLUFT000001.1.1",
           "@type": "https://onerecord.iata.org/ns/cargo#Composing",
           "https://onerecord.iata.org/ns/cargo#actionEndTime": {
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
@@ -66,7 +66,7 @@
       {
         "action": "create_lo",
         "body": {
-          "@id": "https://neone.onerecord.fr/logistics-objects/action-onloading-1-1",
+          "@id": "https://neone.onerecord.fr/logistics-objects/actionLoadingOnLUFT000001.1.1",
           "@type": "https://onerecord.iata.org/ns/cargo#Loading",
           "https://onerecord.iata.org/ns/cargo#actionEndTime": {
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
@@ -98,7 +98,7 @@
               "@id": "neone:be8bb700-2535-47f6-a3d3-996d3d5f87be",
               "@type": "https://onerecord.iata.org/ns/cargo#ActivitySequence",
               "https://onerecord.iata.org/ns/cargo#activity": {
-                "@id": "https://neone.onerecord.fr/logistics-objects/transport-movement_LUFT000001.1"
+                "@id": "https://neone.onerecord.fr/logistics-objects/transportMovement_LUFT000001.1"
               },
               "https://onerecord.iata.org/ns/cargo#sequenceNumber": "1"
             },
@@ -106,7 +106,7 @@
               "@id": "neone:314627e7-0baa-47ab-a215-b1b01ed1c2e0",
               "@type": "https://onerecord.iata.org/ns/cargo#ActivitySequence",
               "https://onerecord.iata.org/ns/cargo#activity": {
-                "@id": "https://neone.onerecord.fr/logistics-objects/transport-movement_LUFT000001.2"
+                "@id": "https://neone.onerecord.fr/logistics-objects/transportMovement_LUFT000001.2"
               },
               "https://onerecord.iata.org/ns/cargo#sequenceNumber": "2"
             }

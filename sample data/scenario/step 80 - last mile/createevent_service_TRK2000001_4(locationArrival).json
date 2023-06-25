@@ -1,0 +1,23 @@
+{
+  "eventType": "BUSINESS",
+  "code": "LOCATION_ARRIVAL",
+  "domain":"SCHEDULE",
+  "description" : "Arriving at buyer location",
+  "location": {
+    "address": {
+      "addressCountry": {
+        "countryCode": "DE",
+        "countryName": "Germany"
+      },
+      "addressLocality": "Mayence",
+      "addressRegion": "",
+      "postOfficeBoxNumber": "",
+      "postalCode": "55124",
+      "streetAddress": ""
+    },
+    "locationName": "BUYER LOCATION",
+    "locationType": "WAREHOUSE"
+  },
+  "actualDateTime": "2023-06-25T11:45:00.000Z",
+  "creationDateTime": "2023-06-25T11:45:00.010Z"
+}
