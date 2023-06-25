@@ -55,5 +55,16 @@
       "reference": "ABCDEFG.4",
       "externalReferenceType": "REQUESTOR_ID"
     }
+  ],
+  "documents": [
+    {
+      "cmsUri": "https://discord.gg/mum9RZdDp3",
+      "documentName": "POD/45554",
+      "documentType": "TRANSPORT_DOCUMENT",
+      "documentSubtype": "POD",
+      "format": "JPEG",
+      "isRequired": true,
+      "suppliedWithGoods": true
+    }
   ]
 }
