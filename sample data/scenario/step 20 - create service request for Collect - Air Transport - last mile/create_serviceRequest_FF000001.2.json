@@ -30,7 +30,7 @@
   "requestDateTime": "2023-06-23T09:15:00.000Z",
   "responseStatus": "",
   "responseDateTime": null,
-  "service": "",
+  "service": "https://neone.onerecord.fr/logistics-objects/booking_LUFT000001",
   "serviceType": "TRANSPORT",
   "serviceSubtype": "AIR_TRANSPORT",
   "serviceName": "Air transport Chicago-Frankfurt",
