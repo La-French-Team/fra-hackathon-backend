@@ -51,7 +51,7 @@ jobs:
           cache-from: type=gha
           cache-to: type=gha,mode=max
       - name: Trigger deployment rollout
-        uses: actions-hub/kubectl@v1.27.3
+        uses: actions-hub/kubectl@v1.27.4
         env:
           KUBE_CONFIG: ${{ secrets.KUBE_CONFIG }}
         with:
